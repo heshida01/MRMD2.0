@@ -25,7 +25,7 @@
  终端输出的数据可以在Logs文件中查找
  
  
- # English version:
+English version:
  
  Environment
 python3(refer to "requirements.txt" under github, execute "pip install -r requirements.txt", Also download pymrmr.zip under github. After unzipping,should execute python setup.py install)
