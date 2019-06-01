@@ -23,4 +23,23 @@
  -c 降维后的数据集，csv格式
  
  终端输出的数据可以在Logs文件中查找
-                     
+ 
+ 
+ # English version:
+ 
+ Environment
+python3(refer to "requirements.txt" under github, execute "pip install -r requirements.txt", Also download pymrmr.zip under github. After unzipping,should execute python setup.py install)
+note:We recommend python3.6, otherwise pymrmr may fail to install  
+Usage
+
+python3 mrmd2.0.py -i input.csv -s start_index -e end_index -l Step_length -o accuracy_f1.csv -c deimensionReduction_dataset.csv
+
+-i the input dataset, supports csv,arff and libsvm 
+-s the location where the user specified interval begins 
+-e User-specified interval ending position 
+-l step length 
+-o Some indicators of the dimensionality reduction data set 
+-c Dimensionalized data set 
+-h Program help Description 
+The data output by the terminal can be found in the Logs directory. 
+
