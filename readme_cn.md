@@ -1,8 +1,8 @@
 ## mrmd2.0.py 
  
 #### 安装：
-
-##### Linux:  
+请用python3.6，有的包不支持更高的版本。  
+###### Linux:  
   ```
   pip3 install -r requirements.txt 
   ```
@@ -20,7 +20,7 @@
    pip3 install Cython
    ```
 
-##### Windows:
+###### Windows:
   ```
   pip3 install -r requirements.txt
   ```
