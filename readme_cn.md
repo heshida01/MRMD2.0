@@ -3,10 +3,10 @@
 #### 安装：
 
 ### Linux:  
-  `pip3 install -r requirements.txt `
-  然后解压pymrmr.zip  进入解压后的文件夹：     
-  `python3 setup.py install   `
-  如果安装过程出现问题可以根据错误提示尝试下面的几个命令：
+  `pip3 install -r requirements.txt `  
+  然后解压pymrmr.zip  进入解压后的文件夹：       
+  `python3 setup.py install   `  
+  如果安装过程出现问题可以根据错误提示尝试下面的几个命令：  
   ` apt install python3-dev
    apt install build-essential
    pip3 install setuptools
