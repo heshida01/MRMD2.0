@@ -17,8 +17,8 @@
  ` pip3 install -r requirements.txt`  
   Then unzip pymrmr.zip and go to the unzipped folder：   
  ` python3 setup.py install  `  
-  If there is a problem with windows, you can refer to the above linux。
-  ---
+  If there is a problem with windows, you can refer to the above linux.
+  
  #### usage:
 
  `python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o metrics.csv  -c Dimensionalized_dataset.csv.csv`
