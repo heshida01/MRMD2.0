@@ -3,9 +3,15 @@
 #### Installation：
 
 ##### Linux:  
-  ```pip3 install -r requirements.txt ```
+
+  ```
+  pip3 install -r requirements.txt 
+  ```  
  Then unzip pymrmr.zip and go to the unzipped folder：       
-  ```python3 setup.py install   ```
+ 
+  ```
+  python3 setup.py install
+  ```  
   If there is a problem during the installation process, you can try the following commands based on the error message： 
   
   ```
@@ -17,14 +23,21 @@
   ```
 
 ##### Windows:
- ` pip3 install -r requirements.txt`  
+
+ ```
+ pip3 install -r requirements.txt
+ ```
   Then unzip pymrmr.zip and go to the unzipped folder：   
- ` python3 setup.py install  `  
+ ```
+ python3 setup.py install  
+ ``` 
   If there is a problem with windows, you can refer to the above linux.
   
  #### usage:
 
- `python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o metrics.csv  -c Dimensionalized_dataset.csv.csv`
+ ```
+ python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o metrics.csv  -c Dimensionalized_dataset.csv.csv
+ ```
 
  -i  the input dataset, supports csv,arff and libsvm 
  
@@ -44,4 +57,7 @@
  * Test.csv is a 150-dimensional dataSet
  * First select a dimension reduction interval (here from the first feature to the 150th feature, that is, the dimension reduction of the entire feature data set, of course, you can also choose one of the other continuous feature intervals)  
  * Step size is set to 1  
-```python3  mrmd2.0.py  -i test.csv -s 1 -e 150 -l Step_length 1  -o metrics.csv  -c Dimensionalized_dataset.csv```
+ 
+```
+python3  mrmd2.0.py  -i test.csv -s 1 -e 150 -l Step_length 1  -o metrics.csv  -c Dimensionalized_dataset.csv
+```
