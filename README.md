@@ -19,7 +19,7 @@
    apt install build-essential  
    pip3 install setuptools 
    pip3 install numpy 
-   pip3 install Cython`  
+   pip3 install Cython
   ```
 
 ##### Windows:
