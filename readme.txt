@@ -1,4 +1,4 @@
- python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o accuracy_f1.csv  -c deimensionReduction_dataset.csv
+### python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o accuracy_f1.csv  -c deimensionReduction_dataset.csv
  
  环境: python3.6(参考“requirements.txt”, 执行 "pip install -r requirements.txt",     
        另外下载pymrmr.zip,解压后windows用户执行"python setup.py install "，  
