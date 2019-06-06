@@ -1,25 +1,23 @@
 ## mrmd2.0.py 
  
 #### 安装：
-Windows:
 
-pip3 install numpy  
-pip3 install -r requirements.txt  
+### Linux:  
+  `pip3 install -r requirements.txt `
+  然后解压pymrmr.zip  进入解压后的文件夹：     
+  `python3 setup.py install   `
+  如果安装过程出现问题可以根据错误提示尝试下面的几个命令：
+  ` apt install python3-dev
+   apt install build-essential
+   pip3 install setuptools
+   pip3 install numpy
+   pip3 install Cython`
 
-然后解压pymrmr.zip  进入解压后的文件夹：  
-pip3 install Cython    
-python3 setup.py install    
-
-Linux:  
-sudo apt install python3-dev  
-apt install build-essential   
-pip3 install setuptools  
-pip3 install numpy  
-
-pip3 install -r requirements.txt  
-然后解压pymrmr.zip  进入解压后的文件夹：     
-pip3 install Cython   
-python3 setup.py install   
+### Windows:
+ ` pip3 install -r requirements.txt`  
+  然后解压pymrmr.zip  进入解压后的文件夹：  
+ ` python3 setup.py install  `  
+  如果windows出现问题可以参考上面linux的。
  #### usage:
 
  `python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o metrics.csv  -c Dimensionalized_dataset.csv.csv`
