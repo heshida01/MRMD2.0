@@ -8,9 +8,13 @@
   `python3 setup.py install   `  
   If there is a problem during the installation process, you can try the following commands based on the error message.：  
   ` apt install python3-dev  
+  
    apt install build-essential  
+   
    pip3 install setuptools  
+   
    pip3 install numpy  
+   
    pip3 install Cython`  
 
 ##### Windows:
