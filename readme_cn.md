@@ -34,12 +34,12 @@
  ```
  python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o metrics.csv  -c Dimensionalized_dataset.csv.csv
  ```
-
+  程序可以选择数据集特征序列的某一区间进行降维，所以需要选择指定参数-s,-e，如果是对整个数据集进行降维，只需指定-s 1 ,-e -1  
  -i 输入的数据集，目前支持csv，arff,libsvm
  
- -s 用户指定的降维区间开始的位置
+ -s 用户指定的降维区间开始的位置（1是数据集的第一个特征的序号，不是0）
  
- -e 用户指定的降维区间结束的位置
+ -e 用户指定的降维区间结束的位置(-1代表最后一个特征的序号，也可以写实际的序号)
  
  -l 区间的步长（步长设置的大一点速度会快，小一点最后的结果会更好）
  
