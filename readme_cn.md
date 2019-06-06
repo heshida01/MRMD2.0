@@ -1,4 +1,4 @@
-### mrmd2.0.py 
+## mrmd2.0.py 
  
 #### 安装：
 Windows:
@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 然后解压pymrmr.zip  进入解压后的文件夹：     
 pip3 install Cython   
 python3 setup.py install   
- ####usage:
+ #### usage:
 
  `python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o metrics.csv  -c Dimensionalized_dataset.csv.csv`
 
