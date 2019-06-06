@@ -127,7 +127,7 @@ class PrecisionLasso():
     def calculateGamma(self, X, rate=0.85, sample=True):
         if sample:
             np.random.seed(0)
-            idx = np.random.choice(X.shape[1], X.shape[0], replace=False)
+            idx = np.random.choice(X.shape[1], X.shape[0], replace=True)
             tmpX = X[:, idx]
         else:
             tmpX = X
