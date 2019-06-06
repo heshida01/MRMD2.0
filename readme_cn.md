@@ -2,7 +2,7 @@
  
 #### 安装：
 
-### Linux:  
+##### Linux:  
   `pip3 install -r requirements.txt `  
   然后解压pymrmr.zip  进入解压后的文件夹：       
   `python3 setup.py install   `  
@@ -13,7 +13,7 @@
    pip3 install numpy
    pip3 install Cython`
 
-### Windows:
+##### Windows:
  ` pip3 install -r requirements.txt`  
   然后解压pymrmr.zip  进入解压后的文件夹：  
  ` python3 setup.py install  `  
@@ -36,7 +36,7 @@
  
  终端输出的数据可以在Logs文件中查找，结果请在Results里面查找，也可以指定i其他目录  
  
- ####Example
+ #### Example
  * test.csv是一个150维的数据集  
  * 首先选择一个降维区间（从第1个特征到第150个特征，也就是对整个特征数据集降维）  
  * 步长设为1  
