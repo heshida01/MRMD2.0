@@ -52,7 +52,7 @@
  -c  Dimensionalized data set 
  
  The data output by the terminal can be found in the Logs directory. Please find the results in 'Results' folder, you can also specify other directories. 
- ---
+
  #### Example
  * Test.csv is a 150-dimensional dataSet
  * First select a dimension reduction interval (here from the first feature to the 150th feature, that is, the dimension reduction of the entire feature data set, of course, you can also choose one of the other continuous feature intervals)  
