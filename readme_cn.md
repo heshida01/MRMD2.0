@@ -3,24 +3,37 @@
 #### 安装：
 
 ##### Linux:  
-  `pip3 install -r requirements.txt `  
+  ```
+  pip3 install -r requirements.txt 
+  ```
   然后解压pymrmr.zip  进入解压后的文件夹：       
-  `python3 setup.py install   `  
-  如果安装过程出现问题可以根据错误提示尝试下面的几个命令：  
-  ` apt install python3-dev
+  ```
+  python3 setup.py install   
+  ```
+  如果安装过程出现问题可以根据错误提示尝试下面的几个命令： 
+  
+  ```
+   apt install python3-dev
    apt install build-essential
    pip3 install setuptools
    pip3 install numpy
-   pip3 install Cython`
+   pip3 install Cython
+   ```
 
 ##### Windows:
- ` pip3 install -r requirements.txt`  
+  ```
+  pip3 install -r requirements.txt
+  ```
   然后解压pymrmr.zip  进入解压后的文件夹：  
- ` python3 setup.py install  `  
+  ```
+  python3 setup.py install  
+  ```
   如果windows出现问题可以参考上面linux的。
  #### usage:
 
- `python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o metrics.csv  -c Dimensionalized_dataset.csv.csv`
+ ```
+ python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o metrics.csv  -c Dimensionalized_dataset.csv.csv
+ ```
 
  -i 输入的数据集，目前支持csv，arff,libsvm
  
@@ -40,4 +53,6 @@
  * test.csv是一个150维的数据集  
  * 首先选择一个降维区间（从第1个特征到第150个特征，也就是对整个特征数据集降维,当然也可以自己选择一个其他的连续的特征区间）  
  * 步长设为1  
- `python3  mrmd2.0.py  -i test.csv -s 1 -e 150 -l Step_length 1  -o metrics.csv  -c Dimensionalized_dataset.csv`
+ ```
+ python3  mrmd2.0.py  -i test.csv -s 1 -e 150 -l Step_length 1  -o metrics.csv  -c Dimensionalized_dataset.csv
+ ```
