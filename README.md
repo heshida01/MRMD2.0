@@ -1,7 +1,7 @@
 ## mrmd2.0.py 
  
 #### Installation：
-
+Please use the python3.6 , some packages do not support higher versions.  
 ##### Linux:  
 
   ```
