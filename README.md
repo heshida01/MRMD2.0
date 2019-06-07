@@ -2,7 +2,7 @@
  
 #### Installation：
 Please use the python3.6 , some packages do not support higher versions.  
-##### Linux:  
+##### Linux(ubuntu):  
 
   ```
   pip3 install -r requirements.txt 
