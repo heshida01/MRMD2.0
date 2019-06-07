@@ -15,10 +15,16 @@ Please use the python3.6 , some packages do not support higher versions.
   If there is a problem during the installation process, you can try the following commands based on the error message： 
   
   ```
-   apt install python3-dev  
-   apt install build-essential  
+   ### Command 'pip3' not found
+   apt install python3-pip
+   ###  ModuleNotFoundError: No module named 'setuptools'
    pip3 install setuptools 
-   pip3 install numpy 
+   ### ModuleNotFoundError: No module named 'numpy'
+   pip3 install numpy     
+   ### error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+   apt install python3-dev  
+   apt install build-essential 
+   ### ModuleNotFoundError: No module named 'Cython'
    pip3 install Cython
   ```
 
