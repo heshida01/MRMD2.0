@@ -13,11 +13,11 @@
   如果安装过程出现问题可以根据错误提示尝试下面的几个命令：   
   (linux用户必须需要提前安装下面几个包，如果出错，可以根据提示的错误信息，选择下面的命令进行安装)
   ```
-   apt install python3-dev
-   apt install build-essential
-   pip3 install setuptools
-   pip3 install numpy
-   pip3 install Cython
+   1. apt install python3-dev
+   2. apt install build-essential
+   3. pip3 install setuptools
+   4. pip3 install numpy
+   5. pip3 install Cython
    ```
 
 ###### Windows:
