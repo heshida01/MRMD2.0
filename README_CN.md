@@ -13,11 +13,17 @@
   如果安装过程出现问题可以根据错误提示尝试下面的几个命令：   
   (linux用户必须需要提前安装下面几个包，如果出错，可以根据提示的错误信息，选择下面的命令进行安装)
   ```
-   1. apt install python3-dev
-   2. apt install build-essential
-   3. pip3 install setuptools
-   4. pip3 install numpy
-   5. pip3 install Cython
+   ### Command 'pip3' not found
+   apt install python3-pip
+   ###  ModuleNotFoundError: No module named 'setuptools'
+   pip3 install setuptools 
+   ### ModuleNotFoundError: No module named 'numpy'
+   pip3 install numpy     
+   ### error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+   apt install python3-dev  
+   apt install build-essential 
+   ### ModuleNotFoundError: No module named 'Cython'
+   pip3 install Cython
    ```
 
 ###### Windows:
