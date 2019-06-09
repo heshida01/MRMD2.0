@@ -61,5 +61,5 @@
  * 首先选择一个降维区间（从第1个特征到第150个特征，也就是对整个特征数据集降维,当然也可以自己选择一个其他的连续的特征区间）  
  * 步长设为1  
  ```
- python3  mrmd2.0.py  -i test.csv -s 1 -e 150 -l Step_length 1  -o metrics.csv  -c Dimensionalized_dataset.csv
+ python3  mrmd2.0.py  -i test.csv -s 1 -e  -l Step_length 1  -o metrics.csv  -c Dimensionalized_dataset.csv
  ```
