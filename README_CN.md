@@ -92,7 +92,7 @@ python  mrmd2.0.py  -i test.arff -s 1 -e  -1  -l 5  -o metrics.csv  -c Dimension
  
  * -c 降维后的数据集
  
- 终端输出的数据可以在Logs文件中查找，结果请在Results里面查找，也可以指定其他目录  
+ 终端输出的数据可以在Logs文件中查找，结果请在Results里面查找.
  
  #### 3. Example
  * test.csv是一个150维的数据集  
