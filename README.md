@@ -84,17 +84,17 @@ python  mrmd2.0.py  -i test.arff -s 1 -e  -1  -l 5  -o metrics.csv  -c Dimension
  
 *note: The program can select a certain interval of the data set feature sequence for dimensionality reduction, so you need to select the specified parameter -s, -e. If you want to reduce the dimension of the entire data set, you only need to specify -s 1 , -e -1*
 
- -i  the input dataset, supports csv,arff and libsvm 
+ * -i  the input dataset, supports csv,arff and libsvm 
  
- -s the location where the user specified interval begins 
+ * -s the location where the user specified interval begins 
  
- -e User-specified interval ending position 
+ * -e User-specified interval ending position 
  
- -l step length （Larger steps will execute faster, and smaller results will be better.）
+ * -l step length （Larger steps will execute faster, and smaller results will be better.）
  
- -o  Some indicators of the dimensionality reduction data set 
+ * -o  Some indicators of the dimensionality reduction data set 
  
- -c  Dimensionalized data set 
+ * -c  Dimensionalized data set 
  
  The data output by the terminal can be found in the Logs directory. Please find the results in 'Results' folder, you can also specify other directories. 
 
