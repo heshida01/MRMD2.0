@@ -13,7 +13,7 @@ from scipy.io import arff
 from sklearn.datasets import load_svmlight_file
 from sklearn.datasets import dump_svmlight_file
 from format import pandas2arff
-
+from format import clean_tmpfile
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", type=int, help="start index")
@@ -44,13 +44,6 @@ class Dim_Rd(object):
         file_type = self.file_csv.split('.')[-1]
         if file_type == 'csv':
             read_csv()
-            # self.df=pd.read_csv(self.file_csv).dropna(axis=1)
-            # datas = np.array(self.df)
-            # self.datas=datas
-            # self.X=datas[:,1:]
-            # self.y=datas[:,0]
-
-
 
     def range_steplen(self, start=1, end=1, length=1):
         self.start = start
@@ -136,22 +129,7 @@ class Dim_Rd(object):
         max=0
         seqmax=[]
         scorecsv=outfile
-        '''
-        datadict = { }  #记录数据指标 画图用
 
-        def line_chart(datadict):  #画图
-            x_axis = datadict['len']
-            datadict.pop('len')
-            line = Line("metrics line")
-            for metric_name in datadict:
-                line.add(
-                    metric_name,
-                    x_axis,
-                    datadict[metric_name]
-                )
-        
-            line.render()
-        '''
         with open(scorecsv,'w') as f:
             f.write('length,accuracy,f1,precision,recall,roc\n')
             for i in range(int(ceil((self.end-self.start)/self.length))+1):
@@ -214,6 +192,8 @@ class Dim_Rd(object):
         mrmr_featurLen = args.m
         features,features_sorted=feature_rank(file,self.logger,mrmr_featurLen)
         self.read_data()
+        if int(args.e) == -1:
+            args.e = len(pd.read_csv(file).columns) - 1
         self.range_steplen(args.s, args.e, args.l)
         outputfile = os.getcwd()+os.sep+'Results'+os.sep+outputfile
         csvfile = os.getcwd()+os.sep+'Results'+os.sep+csvfile
@@ -288,22 +268,23 @@ if __name__ == '__main__':
     else:
         assert "format error"
     #format : arff or libsvm to csv
-    if args.e == -1:
+    if int(args.e) == -1:
         args.e = len(pd.read_csv(file).columns) - 1
     d=Dim_Rd(file,logger)
 
     d.run(inputfile=file)
     outputfile = os.getcwd() + os.sep + 'Results' + os.sep + args.o
     csvfile = os.getcwd() + os.sep + 'Results' + os.sep + args.c
-    logger.info("The  output by the terminal's log has been saved in the {}.".format(logfile))
+    logger.info("The output by the terminal's log has been saved in the {}.".format(logfile))
     logger.info('metrics have been saved in the {}.'.format(outputfile))
 
     #处理输出文件的类型
-    if file_type == 'csv':
+    outputfile_file_type = args.c.split('.')[-1]
+    if outputfile_file_type == 'csv':
         logger.info('reduced dimensional dataset has been saved in the {}.'.format(csvfile))
 
-    elif file_type == 'arff':
-        df = pd.read_csv(csvfile)
+    elif outputfile_file_type == 'arff':
+        df = pd.read_csv(csvfile,engine='python')
         filename, ext = os.path.splitext(args.i)
 
         if df['class'].dtype == np.float:
@@ -311,13 +292,20 @@ if __name__ == '__main__':
         temp = df['class']
         df = df.drop(columns=['class'], axis=1)
         df['class'] = temp
-        DimensionReduction_filename = os.path.abspath('./Result') + filename + '.Dimensionality_reduction' + '.arff'
-        pandas2arff.pandas2arff(df, DimensionReduction_filename, wekaname=filename, cleanstringdata=False, cleannan=True)
-        logger.info('reduced dimensional dataset has been saved in the {}.'.format(csvfile))
+        DimensionReduction_filename = os.path.abspath('./Results') + os.sep+args.c
+        pandas2arff.pandas2arff(df,  filename=r'./Results/{}'.format(args.c), wekaname=filename, cleanstringdata=False, cleannan=True)
+        #pandas2arff.pandas2arff(df, args.c, wekaname=DimensionReduction_filename, cleanstringdata=False,
+                                #cleannan=True)
+
+        # if os.exists(DimensionReduction_filename):
+        #     clean_tmpfile.clean_csv(DimensionReduction_filename)
+        #os.rename(args.c,DimensionReduction_filename)  # move file  to Results folder
+        #clean_tmpfile.clean_csv(csvfile)
+        logger.info('reduced dimensional dataset has been saved in the {}.'.format(DimensionReduction_filename))
         #clean_csv(csvfile)
 
-    elif file_type == 'libsvm':
-        df = pd.read_csv(csvfile)
+    elif outputfile_file_type == 'libsvm':
+        df = pd.read_csv(csvfile,engine='python')
         for x in df.columns:
             if x.lower() == 'class':
                 label = x
@@ -326,9 +314,11 @@ if __name__ == '__main__':
         X = df.drop(columns=label, axis=1)
 
         inputfile = args.i
-        filename ,ext = os.path.splitext(inputfile)
-        DimensionReduction_filename = os.path.abspath('./Result')+filename + '.Dimensionality_reduction'+'.libsvm'
+        #filename ,ext = os.path.splitext(inputfile)
+        DimensionReduction_filename = os.path.abspath('./Results')+os.sep+args.c
         dump_svmlight_file(X, y, DimensionReduction_filename, zero_based=True, multilabel=False)
+        #clean_tmpfile.clean_csv(csvfile)
+        logger.info('reduced dimensional dataset has been saved in the {}.'.format(DimensionReduction_filename))
+    else:
         logger.info('reduced dimensional dataset has been saved in the {}.'.format(csvfile))
-
     logger.info("---mrmd 2.0 end---")
