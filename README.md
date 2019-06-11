@@ -96,7 +96,7 @@ python  mrmd2.0.py  -i test.arff -s 1 -e  -1  -l 5  -o metrics.csv  -c Dimension
  
  * -c  Dimensionalized data set 
  
- The data output by the terminal can be found in the Logs directory. Please find the results in 'Results' folder, you can also specify other directories. 
+ The data output by the terminal can be found in the Logs directory. Please find the results in 'Results' folder. 
 
  #### 3. Example
  * Test.csv is a 150-dimensional dataSet
