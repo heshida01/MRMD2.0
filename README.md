@@ -1,8 +1,8 @@
 ## mrmd2.0.py 
  
-#### Installation：
+#### 1. Installation：
 Please use the python3.6 , some packages do not support higher versions.  
-##### Linux(ubuntu):  
+##### 1.1 Linux(ubuntu):  
 
   ```
   pip3 install -r requirements.txt 
@@ -27,8 +27,45 @@ Please use the python3.6 , some packages do not support higher versions.
    ### ModuleNotFoundError: No module named 'Cython'
    pip3 install Cython
   ```
+##### 1.2 docker(debian)
 
-##### Windows:
+```
+### use debian
+docker pull debian
+docker run -i -t debian /bin/bash
+
+apt update
+
+###install miniconda3 (python3.6)
+apt install wget
+wget  https://repo.anaconda.com/miniconda/Miniconda3-4.5.4-Linux-x86_64.sh
+apt install bzip2
+bash  Miniconda3-4.5.4-Linux-x86_64.sh
+source ~/.bashrc
+
+apt install git
+git clone https://github.com/heshida01/MRMD2.0.git
+
+### install packages
+cd MRMD2.0
+apt install build-essential
+pip install numpy
+pip install -r requirements.txt
+
+apt install unzip
+unzip pymrmr.zip
+cd pymrmr
+pip install Cython 
+python setup.py install
+
+### fix bug  "ValueError: numpy.ufunc has the wrong size, try recompiling. Expected 192, got 216"
+pip uninstall numpy
+pip install numpy
+###test
+python  mrmd2.0.py  -i test.arff -s 1 -e  -1  -l 5  -o metrics.csv  -c Dimensionalized_dataset.csv
+```
+
+##### 1.3  Windows:
 
  ```
  pip3 install -r requirements.txt
@@ -39,7 +76,7 @@ Please use the python3.6 , some packages do not support higher versions.
  ``` 
   If there is a problem with windows, you can refer to the above linux.
   
- #### usage:
+ #### 2. usage:
 
  ```
  python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o metrics.csv  -c Dimensionalized_dataset.csv.csv
@@ -61,7 +98,7 @@ Please use the python3.6 , some packages do not support higher versions.
  
  The data output by the terminal can be found in the Logs directory. Please find the results in 'Results' folder, you can also specify other directories. 
 
- #### Example
+ #### 3. Example
  * Test.csv is a 150-dimensional dataSet
  * First select a dimension reduction interval (here from the first feature to the 150th feature, that is, the dimension reduction of the entire feature data set, of course, you can also choose one of the other continuous feature intervals)  
  * Step size is set to 1  
