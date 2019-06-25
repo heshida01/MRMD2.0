@@ -24,6 +24,9 @@
    apt install build-essential 
    ### ModuleNotFoundError: No module named 'Cython'
    pip3 install Cython
+   ### ValueError: numpy.ufunc has the wrong size, try recompiling. Expected 192, got 216
+   pip uninstall numpy
+   pip install numpy
    ```
    
 ##### 1.2 docker(debian)
