@@ -107,6 +107,6 @@ python  mrmd2.0.py  -i test.arff -s 1 -e  -1  -l 5  -o metrics.csv  -c Dimension
  * Step size is set to 1  
  
 ```
-python3  mrmd2.0.py  -i test.csv -s 1 -e  -l Step_length 1  -o metrics.csv  -c Dimensionalized_dataset.csv
+python3  mrmd2.0.py  -i test.csv -s 1 -e -1 -l  1  -o metrics.csv  -c Dimensionalized_dataset.csv
 ```
 
