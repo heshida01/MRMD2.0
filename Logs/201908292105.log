@@ -1,0 +1,258 @@
+[2019-08-29 21:05:47,174]: ---mrmd 2.0 start----
+[2019-08-29 21:05:47,245]: ANOVA start...
+[2019-08-29 21:05:47,257]: ANOVA end.
+[2019-08-29 21:05:47,257]: mic start...
+[2019-08-29 21:05:57,005]: mic end.
+[2019-08-29 21:05:57,005]: mrmd start...
+[2019-08-29 21:05:57,272]: mrmd end.
+[2019-08-29 21:05:57,272]: mRMR start...
+[2019-08-29 21:06:00,935]: mRMR end.
+[2019-08-29 21:06:00,935]: lasso start...
+[2019-08-29 21:06:00,973]: lasso end.
+[2019-08-29 21:06:00,973]: chi2 start...
+[2019-08-29 21:06:00,997]: chi2 end.
+[2019-08-29 21:06:00,997]: ref start...
+[2019-08-29 21:06:02,240]: ref end.
+[2019-08-29 21:06:02,245]: rank start ...
+[2019-08-29 21:06:02,258]: The final  rank is
+[2019-08-29 21:06:02,258]: Hopp_Woods_R : 0.0071
+[2019-08-29 21:06:02,258]: basic_polar : 0.0070
+[2019-08-29 21:06:02,258]: Rose_I : 0.0067
+[2019-08-29 21:06:02,258]: Janin_W : 0.0067
+[2019-08-29 21:06:02,258]: aromatic : 0.0067
+[2019-08-29 21:06:02,258]: Janin_P : 0.0067
+[2019-08-29 21:06:02,258]: Cornette_C : 0.0066
+[2019-08-29 21:06:02,258]: Kyte_Doolittle_I : 0.0066
+[2019-08-29 21:06:02,259]: Janin_D : 0.0066
+[2019-08-29 21:06:02,259]: hydrophily : 0.0066
+[2019-08-29 21:06:02,259]: Kyte_Doolittle_A : 0.0066
+[2019-08-29 21:06:02,259]: Cornette_V : 0.0065
+[2019-08-29 21:06:02,259]: Engelman_GES_W : 0.0065
+[2019-08-29 21:06:02,259]: Cornette_T : 0.0065
+[2019-08-29 21:06:02,259]: Engelman_GES_D : 0.0065
+[2019-08-29 21:06:02,259]: Eisenberg_R : 0.0064
+[2019-08-29 21:06:02,259]: Engelman_GES_S : 0.0064
+[2019-08-29 21:06:02,259]: Engelman_GES_E : 0.0064
+[2019-08-29 21:06:02,259]: Engelman_GES_N : 0.0064
+[2019-08-29 21:06:02,259]: Rose_S : 0.0064
+[2019-08-29 21:06:02,259]: Hopp_Woods_I : 0.0064
+[2019-08-29 21:06:02,260]: Hopp_Woods_A : 0.0063
+[2019-08-29 21:06:02,260]: Hopp_Woods_D : 0.0063
+[2019-08-29 21:06:02,260]: Engelman_GES_R : 0.0063
+[2019-08-29 21:06:02,260]: Janin_Q : 0.0062
+[2019-08-29 21:06:02,260]: Cornette_F : 0.0062
+[2019-08-29 21:06:02,260]: Cornette_P : 0.0062
+[2019-08-29 21:06:02,260]: Rose_H : 0.0062
+[2019-08-29 21:06:02,260]: Eisenberg_N : 0.0061
+[2019-08-29 21:06:02,260]: Cornette_K : 0.0061
+[2019-08-29 21:06:02,260]: Cornette_D : 0.0061
+[2019-08-29 21:06:02,260]: Engelman_GES_L : 0.0061
+[2019-08-29 21:06:02,260]: Rose_L : 0.0061
+[2019-08-29 21:06:02,260]: C : 0.0061
+[2019-08-29 21:06:02,260]: Cornette_E : 0.0061
+[2019-08-29 21:06:02,260]: Kyte_Doolittle_P : 0.0061
+[2019-08-29 21:06:02,261]: Rose_Q : 0.0060
+[2019-08-29 21:06:02,261]: Engelman_GES_F : 0.0060
+[2019-08-29 21:06:02,261]: Janin_H : 0.0060
+[2019-08-29 21:06:02,261]: Kyte_Doolittle_W : 0.0060
+[2019-08-29 21:06:02,261]: Janin_V : 0.0060
+[2019-08-29 21:06:02,261]: Kyte_Doolittle_K : 0.0059
+[2019-08-29 21:06:02,261]: Kyte_Doolittle_C : 0.0059
+[2019-08-29 21:06:02,261]: Kyte_Doolittle_H : 0.0059
+[2019-08-29 21:06:02,261]: Cornette_H : 0.0059
+[2019-08-29 21:06:02,261]: K : 0.0059
+[2019-08-29 21:06:02,261]: Hopp_Woods_F : 0.0059
+[2019-08-29 21:06:02,261]: F : 0.0059
+[2019-08-29 21:06:02,262]: Eisenberg_Y : 0.0059
+[2019-08-29 21:06:02,262]: Janin_Y : 0.0059
+[2019-08-29 21:06:02,262]: Kyte_Doolittle_L : 0.0058
+[2019-08-29 21:06:02,262]: alphatic : 0.0058
+[2019-08-29 21:06:02,262]: Rose_T : 0.0058
+[2019-08-29 21:06:02,262]: Rose_R : 0.0058
+[2019-08-29 21:06:02,262]: P : 0.0058
+[2019-08-29 21:06:02,262]: Eisenberg_K : 0.0058
+[2019-08-29 21:06:02,262]: Rose_W : 0.0058
+[2019-08-29 21:06:02,262]: Eisenberg_D : 0.0058
+[2019-08-29 21:06:02,262]: Cornette_S : 0.0058
+[2019-08-29 21:06:02,262]: I : 0.0058
+[2019-08-29 21:06:02,262]: Q : 0.0058
+[2019-08-29 21:06:02,262]: Rose_P : 0.0058
+[2019-08-29 21:06:02,262]: nonpolar : 0.0058
+[2019-08-29 21:06:02,263]: Kyte_Doolittle_N : 0.0058
+[2019-08-29 21:06:02,263]: Engelman_GES_P : 0.0057
+[2019-08-29 21:06:02,263]: Rose_V : 0.0057
+[2019-08-29 21:06:02,263]: Hopp_Woods_N : 0.0057
+[2019-08-29 21:06:02,263]: S : 0.0057
+[2019-08-29 21:06:02,263]: Janin_A : 0.0057
+[2019-08-29 21:06:02,263]: Eisenberg_V : 0.0057
+[2019-08-29 21:06:02,263]: Eisenberg_W : 0.0057
+[2019-08-29 21:06:02,263]: moderate : 0.0057
+[2019-08-29 21:06:02,263]: Rose_M : 0.0057
+[2019-08-29 21:06:02,263]: Cornette_W : 0.0057
+[2019-08-29 21:06:02,263]: Hopp_Woods_H : 0.0057
+[2019-08-29 21:06:02,263]: Engelman_GES_Y : 0.0057
+[2019-08-29 21:06:02,264]: Janin_L : 0.0056
+[2019-08-29 21:06:02,264]: Eisenberg_M : 0.0056
+[2019-08-29 21:06:02,264]: Engelman_GES_T : 0.0056
+[2019-08-29 21:06:02,264]: aliphatic : 0.0056
+[2019-08-29 21:06:02,264]: Engelman_GES_Q : 0.0056
+[2019-08-29 21:06:02,264]: Eisenberg_Q : 0.0056
+[2019-08-29 21:06:02,264]: V : 0.0056
+[2019-08-29 21:06:02,264]: Eisenberg_S : 0.0056
+[2019-08-29 21:06:02,264]: Eisenberg_T : 0.0056
+[2019-08-29 21:06:02,264]: Engelman_GES_K : 0.0056
+[2019-08-29 21:06:02,264]: negativecharge : 0.0056
+[2019-08-29 21:06:02,264]: Kyte_Doolittle_D : 0.0056
+[2019-08-29 21:06:02,264]: T : 0.0056
+[2019-08-29 21:06:02,264]: Janin_T : 0.0056
+[2019-08-29 21:06:02,265]: Kyte_Doolittle_Y : 0.0056
+[2019-08-29 21:06:02,265]: Janin_I : 0.0056
+[2019-08-29 21:06:02,265]: Hopp_Woods_Q : 0.0056
+[2019-08-29 21:06:02,265]: Kyte_Doolittle_S : 0.0056
+[2019-08-29 21:06:02,265]: Cornette_A : 0.0056
+[2019-08-29 21:06:02,265]: Kyte_Doolittle_F : 0.0056
+[2019-08-29 21:06:02,266]: Hopp_Woods_M : 0.0056
+[2019-08-29 21:06:02,266]: Kyte_Doolittle_R : 0.0056
+[2019-08-29 21:06:02,266]: uncharge : 0.0056
+[2019-08-29 21:06:02,266]: polar : 0.0056
+[2019-08-29 21:06:02,266]: Y : 0.0056
+[2019-08-29 21:06:02,266]: Cornette_Q : 0.0056
+[2019-08-29 21:06:02,266]: Kyte_Doolittle_M : 0.0055
+[2019-08-29 21:06:02,266]: Rose_D : 0.0055
+[2019-08-29 21:06:02,266]: Kyte_Doolittle_G : 0.0055
+[2019-08-29 21:06:02,266]: Kyte_Doolittle_E : 0.0055
+[2019-08-29 21:06:02,266]: positve : 0.0055
+[2019-08-29 21:06:02,266]: Kyte_Doolittle_Q : 0.0055
+[2019-08-29 21:06:02,266]: Eisenberg_P : 0.0055
+[2019-08-29 21:06:02,266]: Cornette_Y : 0.0055
+[2019-08-29 21:06:02,266]: Rose_A : 0.0055
+[2019-08-29 21:06:02,267]: Engelman_GES_H : 0.0055
+[2019-08-29 21:06:02,267]: Eisenberg_A : 0.0055
+[2019-08-29 21:06:02,267]: Cornette_M : 0.0055
+[2019-08-29 21:06:02,267]: postivecharge : 0.0055
+[2019-08-29 21:06:02,267]: Hopp_Woods_S : 0.0055
+[2019-08-29 21:06:02,267]: Hopp_Woods_L : 0.0055
+[2019-08-29 21:06:02,267]: Engelman_GES_V : 0.0055
+[2019-08-29 21:06:02,267]: Hopp_Woods_V : 0.0055
+[2019-08-29 21:06:02,267]: Cornette_L : 0.0055
+[2019-08-29 21:06:02,267]: Janin_K : 0.0055
+[2019-08-29 21:06:02,267]: R : 0.0055
+[2019-08-29 21:06:02,267]: D : 0.0055
+[2019-08-29 21:06:02,267]: Eisenberg_L : 0.0055
+[2019-08-29 21:06:02,268]: Eisenberg_H : 0.0055
+[2019-08-29 21:06:02,268]: Hopp_Woods_Y : 0.0055
+[2019-08-29 21:06:02,268]: Engelman_GES_G : 0.0055
+[2019-08-29 21:06:02,268]: G : 0.0055
+[2019-08-29 21:06:02,268]: E : 0.0054
+[2019-08-29 21:06:02,268]: N : 0.0054
+[2019-08-29 21:06:02,268]: Hopp_Woods_C : 0.0054
+[2019-08-29 21:06:02,268]: Rose_F : 0.0054
+[2019-08-29 21:06:02,268]: Janin_F : 0.0054
+[2019-08-29 21:06:02,268]: hydrophobicity : 0.0054
+[2019-08-29 21:06:02,268]: M : 0.0054
+[2019-08-29 21:06:02,268]: Janin_E : 0.0054
+[2019-08-29 21:06:02,268]: Eisenberg_I : 0.0054
+[2019-08-29 21:06:02,269]: Hopp_Woods_K : 0.0054
+[2019-08-29 21:06:02,269]: Hopp_Woods_E : 0.0054
+[2019-08-29 21:06:02,269]: Janin_N : 0.0054
+[2019-08-29 21:06:02,269]: Engelman_GES_A : 0.0054
+[2019-08-29 21:06:02,269]: H : 0.0054
+[2019-08-29 21:06:02,269]: Janin_M : 0.0054
+[2019-08-29 21:06:02,269]: Engelman_GES_M : 0.0053
+[2019-08-29 21:06:02,269]: Rose_C : 0.0053
+[2019-08-29 21:06:02,269]: Engelman_GES_C : 0.0053
+[2019-08-29 21:06:02,269]: neutral : 0.0053
+[2019-08-29 21:06:02,269]: Eisenberg_C : 0.0053
+[2019-08-29 21:06:02,269]: Rose_N : 0.0053
+[2019-08-29 21:06:02,269]: W : 0.0053
+[2019-08-29 21:06:02,269]: Eisenberg_G : 0.0053
+[2019-08-29 21:06:02,269]: Rose_K : 0.0052
+[2019-08-29 21:06:02,270]: Kyte_Doolittle_T : 0.0051
+[2019-08-29 21:06:02,270]: Janin_R : 0.0051
+[2019-08-29 21:06:02,270]: negative : 0.0051
+[2019-08-29 21:06:02,270]: Hopp_Woods_T : 0.0050
+[2019-08-29 21:06:02,270]: Janin_S : 0.0050
+[2019-08-29 21:06:02,270]: Janin_G : 0.0050
+[2019-08-29 21:06:02,270]: A : 0.0050
+[2019-08-29 21:06:02,270]: Rose_E : 0.0050
+[2019-08-29 21:06:02,270]: Engelman_GES_I : 0.0050
+[2019-08-29 21:06:02,270]: Hopp_Woods_W : 0.0050
+[2019-08-29 21:06:02,270]: Cornette_R : 0.0049
+[2019-08-29 21:06:02,270]: Cornette_I : 0.0049
+[2019-08-29 21:06:02,270]: Eisenberg_E : 0.0049
+[2019-08-29 21:06:02,271]: Eisenberg_F : 0.0049
+[2019-08-29 21:06:02,271]: Kyte_Doolittle_V : 0.0048
+[2019-08-29 21:06:02,271]: Rose_Y : 0.0047
+[2019-08-29 21:06:02,271]: L : 0.0047
+[2019-08-29 21:06:02,271]: heterocyclics : 0.0047
+[2019-08-29 21:06:02,271]: Janin_C : 0.0047
+[2019-08-29 21:06:02,271]: aromatic.1 : 0.0044
+[2019-08-29 21:06:02,271]: acidic_polar : 0.0043
+[2019-08-29 21:06:02,271]: Rose_G : 0.0043
+[2019-08-29 21:06:02,271]: Cornette_N : 0.0043
+[2019-08-29 21:06:02,271]: Hopp_Woods_P : 0.0031
+[2019-08-29 21:06:02,271]: Hopp_Woods_G : 0.0031
+[2019-08-29 21:06:02,272]: Cornette_G : 0.0030
+[2019-08-29 21:06:02,272]: feature_rank end
+[2019-08-29 21:06:02,324]: Start dimension reduction ...
+[2019-08-29 21:06:09,871]: length=1 f1=0.6559 accuarcy=0.6630 precision=0.6620 recall=0.6630 auc=0.6483 
+[2019-08-29 21:06:17,565]: length=21 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 auc=0.8510 
+[2019-08-29 21:06:24,917]: length=41 f1=0.8367 accuarcy=0.8370 precision=0.8367 recall=0.8370 auc=0.8338 
+[2019-08-29 21:06:32,499]: length=61 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 auc=0.8216 
+[2019-08-29 21:06:39,931]: length=81 f1=0.8261 accuarcy=0.8261 precision=0.8261 recall=0.8261 auc=0.8240 
+[2019-08-29 21:06:47,358]: length=101 f1=0.8367 accuarcy=0.8370 precision=0.8367 recall=0.8370 auc=0.8338 
+[2019-08-29 21:06:54,916]: length=121 f1=0.8261 accuarcy=0.8261 precision=0.8261 recall=0.8261 auc=0.8240 
+[2019-08-29 21:07:02,349]: length=141 f1=0.8261 accuarcy=0.8261 precision=0.8261 recall=0.8261 auc=0.8240 
+[2019-08-29 21:07:09,800]: length=161 f1=0.8367 accuarcy=0.8370 precision=0.8367 recall=0.8370 auc=0.8338 
+[2019-08-29 21:07:17,707]: length=178 f1=0.8687 accuarcy=0.8696 precision=0.8712 recall=0.8696 auc=0.8632 
+[2019-08-29 21:07:17,711]: ----------
+[2019-08-29 21:07:17,712]: the max f1 = 0.8687
+[2019-08-29 21:07:17,712]: ['Hopp_Woods_R' 'basic_polar' 'Rose_I' 'Janin_W' 'aromatic' 'Janin_P'
+ 'Cornette_C' 'Kyte_Doolittle_I' 'Janin_D' 'hydrophily' 'Kyte_Doolittle_A'
+ 'Cornette_V' 'Engelman_GES_W' 'Cornette_T' 'Engelman_GES_D' 'Eisenberg_R'
+ 'Engelman_GES_S' 'Engelman_GES_E' 'Engelman_GES_N' 'Rose_S'
+ 'Hopp_Woods_I' 'Hopp_Woods_A' 'Hopp_Woods_D' 'Engelman_GES_R' 'Janin_Q'
+ 'Cornette_F' 'Cornette_P' 'Rose_H' 'Eisenberg_N' 'Cornette_K'
+ 'Cornette_D' 'Engelman_GES_L' 'Rose_L' 'C' 'Cornette_E'
+ 'Kyte_Doolittle_P' 'Rose_Q' 'Engelman_GES_F' 'Janin_H' 'Kyte_Doolittle_W'
+ 'Janin_V' 'Kyte_Doolittle_K' 'Kyte_Doolittle_C' 'Kyte_Doolittle_H'
+ 'Cornette_H' 'K' 'Hopp_Woods_F' 'F' 'Eisenberg_Y' 'Janin_Y'
+ 'Kyte_Doolittle_L' 'alphatic' 'Rose_T' 'Rose_R' 'P' 'Eisenberg_K'
+ 'Rose_W' 'Eisenberg_D' 'Cornette_S' 'I' 'Q' 'Rose_P' 'nonpolar'
+ 'Kyte_Doolittle_N' 'Engelman_GES_P' 'Rose_V' 'Hopp_Woods_N' 'S' 'Janin_A'
+ 'Eisenberg_V' 'Eisenberg_W' 'moderate' 'Rose_M' 'Cornette_W'
+ 'Hopp_Woods_H' 'Engelman_GES_Y' 'Janin_L' 'Eisenberg_M' 'Engelman_GES_T'
+ 'aliphatic' 'Engelman_GES_Q' 'Eisenberg_Q' 'V' 'Eisenberg_S'
+ 'Eisenberg_T' 'Engelman_GES_K' 'negativecharge' 'Kyte_Doolittle_D' 'T'
+ 'Janin_T' 'Kyte_Doolittle_Y' 'Janin_I' 'Hopp_Woods_Q' 'Kyte_Doolittle_S'
+ 'Cornette_A' 'Kyte_Doolittle_F' 'Hopp_Woods_M' 'Kyte_Doolittle_R'
+ 'uncharge' 'polar' 'Y' 'Cornette_Q' 'Kyte_Doolittle_M' 'Rose_D'
+ 'Kyte_Doolittle_G' 'Kyte_Doolittle_E' 'positve' 'Kyte_Doolittle_Q'
+ 'Eisenberg_P' 'Cornette_Y' 'Rose_A' 'Engelman_GES_H' 'Eisenberg_A'
+ 'Cornette_M' 'postivecharge' 'Hopp_Woods_S' 'Hopp_Woods_L'
+ 'Engelman_GES_V' 'Hopp_Woods_V' 'Cornette_L' 'Janin_K' 'R' 'D'
+ 'Eisenberg_L' 'Eisenberg_H' 'Hopp_Woods_Y' 'Engelman_GES_G' 'G' 'E' 'N'
+ 'Hopp_Woods_C' 'Rose_F' 'Janin_F' 'hydrophobicity' 'M' 'Janin_E'
+ 'Eisenberg_I' 'Hopp_Woods_K' 'Hopp_Woods_E' 'Janin_N' 'Engelman_GES_A'
+ 'H' 'Janin_M' 'Engelman_GES_M' 'Rose_C' 'Engelman_GES_C' 'neutral'
+ 'Eisenberg_C' 'Rose_N' 'W' 'Eisenberg_G' 'Rose_K' 'Kyte_Doolittle_T'
+ 'Janin_R' 'negative' 'Hopp_Woods_T' 'Janin_S' 'Janin_G' 'A' 'Rose_E'
+ 'Engelman_GES_I' 'Hopp_Woods_W' 'Cornette_R' 'Cornette_I' 'Eisenberg_E'
+ 'Eisenberg_F' 'Kyte_Doolittle_V' 'Rose_Y' 'L' 'heterocyclics' 'Janin_C'
+ 'aromatic.1' 'acidic_polar' 'Rose_G' 'Cornette_N' 'Hopp_Woods_P'
+ 'Hopp_Woods_G' 'Cornette_G'],length = 178
+[2019-08-29 21:07:17,712]: -----------
+[2019-08-29 21:07:25,297]: ***confusion matrix***
+[2019-08-29 21:07:25,297]:                pos_class      neg_class      
+[2019-08-29 21:07:25,298]: pos_class      TP:33             FN:8              
+[2019-08-29 21:07:25,298]: neg_class      FP:4              TN:47             
+[2019-08-29 21:07:25,298]: f1 =0.8687 
+[2019-08-29 21:07:25,299]: accuarcy = 0.8696 
+[2019-08-29 21:07:25,299]: precision =0.8712 
+[2019-08-29 21:07:25,300]: recall =0.8696
+[2019-08-29 21:07:25,300]: auc = 0.8632
+[2019-08-29 21:07:25,328]: -----------
+[2019-08-29 21:07:25,328]: The output by the terminal's log has been saved in the J:\多设备共享\work\MRMD2.0-github\Logs\201908292105.log.
+[2019-08-29 21:07:25,328]: metrics have been saved in the J:\多设备共享\work\MRMD2.0-github\Results\file2.csv.
+[2019-08-29 21:07:25,328]: reduced dimensional dataset has been saved in the J:\多设备共享\work\MRMD2.0-github\Results\file1.csv.
+[2019-08-29 21:07:25,328]: ---mrmd 2.0 end---

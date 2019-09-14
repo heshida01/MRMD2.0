@@ -1,0 +1,169 @@
+[2019-08-29 20:52:21,948]: ---mrmd 2.0 start----
+[2019-08-29 20:52:22,100]: ANOVA start...
+[2019-08-29 20:52:22,118]: ANOVA end.
+[2019-08-29 20:52:22,118]: mic start...
+[2019-08-29 20:52:31,754]: mic end.
+[2019-08-29 20:52:31,754]: mrmd start...
+[2019-08-29 20:52:31,953]: mrmd end.
+[2019-08-29 20:52:31,953]: mRMR start...
+[2019-08-29 20:52:34,506]: mRMR end.
+[2019-08-29 20:52:34,506]: lasso start...
+[2019-08-29 20:52:34,546]: lasso end.
+[2019-08-29 20:52:34,547]: chi2 start...
+[2019-08-29 20:52:34,573]: chi2 end.
+[2019-08-29 20:52:34,574]: ref start...
+[2019-08-29 20:52:35,416]: ref end.
+[2019-08-29 20:52:35,420]: rank start ...
+[2019-08-29 20:52:35,430]: The final  rank is
+[2019-08-29 20:52:35,430]: negativecharger.aromatic.gap2 : 0.0078
+[2019-08-29 20:52:35,430]: aromatic.postivecharger.gap5 : 0.0078
+[2019-08-29 20:52:35,430]: postivecharger.negativecharger.gap5 : 0.0078
+[2019-08-29 20:52:35,430]: aromatic.uncharger.gap5 : 0.0078
+[2019-08-29 20:52:35,430]: uncharger.aromatic.gap1 : 0.0078
+[2019-08-29 20:52:35,430]: aromatic.uncharger.gap1 : 0.0078
+[2019-08-29 20:52:35,430]: negativecharger.alphaticr.gap4 : 0.0078
+[2019-08-29 20:52:35,430]: alphaticr.alphaticr.gap5 : 0.0077
+[2019-08-29 20:52:35,430]: uncharger.uncharger.gap2 : 0.0076
+[2019-08-29 20:52:35,430]: alphaticr.postivecharger.gap3 : 0.0076
+[2019-08-29 20:52:35,430]: uncharger.postivecharger.gap1 : 0.0076
+[2019-08-29 20:52:35,431]: uncharger.alphaticr.gap0 : 0.0076
+[2019-08-29 20:52:35,431]: negativecharger.alphaticr.gap3 : 0.0076
+[2019-08-29 20:52:35,431]: alphaticr.alphaticr.gap0 : 0.0075
+[2019-08-29 20:52:35,431]: postivecharger.uncharger.gap3 : 0.0075
+[2019-08-29 20:52:35,431]: alphaticr.aromatic.gap2 : 0.0075
+[2019-08-29 20:52:35,431]: postivecharger.aromatic.gap3 : 0.0075
+[2019-08-29 20:52:35,431]: uncharger.alphaticr.gap5 : 0.0075
+[2019-08-29 20:52:35,431]: uncharger.aromatic.gap0 : 0.0074
+[2019-08-29 20:52:35,431]: postivecharger.postivecharger.gap1 : 0.0074
+[2019-08-29 20:52:35,431]: alphaticr.negativecharger.gap3 : 0.0074
+[2019-08-29 20:52:35,431]: uncharger.uncharger.gap3 : 0.0074
+[2019-08-29 20:52:35,431]: aromatic.negativecharger.gap5 : 0.0074
+[2019-08-29 20:52:35,431]: aromatic.uncharger.gap4 : 0.0073
+[2019-08-29 20:52:35,432]: uncharger.negativecharger.gap1 : 0.0073
+[2019-08-29 20:52:35,432]: alphaticr.alphaticr.gap4 : 0.0073
+[2019-08-29 20:52:35,432]: aromatic.alphaticr.gap4 : 0.0073
+[2019-08-29 20:52:35,432]: aromatic.negativecharger.gap0 : 0.0073
+[2019-08-29 20:52:35,432]: postivecharger.alphaticr.gap1 : 0.0073
+[2019-08-29 20:52:35,432]: postivecharger.uncharger.gap0 : 0.0073
+[2019-08-29 20:52:35,432]: alphaticr.alphaticr.gap1 : 0.0073
+[2019-08-29 20:52:35,432]: uncharger.postivecharger.gap0 : 0.0073
+[2019-08-29 20:52:35,432]: postivecharger.uncharger.gap2 : 0.0073
+[2019-08-29 20:52:35,432]: alphaticr.aromatic.gap0 : 0.0073
+[2019-08-29 20:52:35,432]: uncharger.alphaticr.gap1 : 0.0072
+[2019-08-29 20:52:35,432]: postivecharger.alphaticr.gap0 : 0.0072
+[2019-08-29 20:52:35,432]: postivecharger.uncharger.gap4 : 0.0072
+[2019-08-29 20:52:35,432]: uncharger.postivecharger.gap2 : 0.0072
+[2019-08-29 20:52:35,432]: uncharger.aromatic.gap5 : 0.0072
+[2019-08-29 20:52:35,433]: uncharger.aromatic.gap3 : 0.0072
+[2019-08-29 20:52:35,433]: uncharger.postivecharger.gap4 : 0.0072
+[2019-08-29 20:52:35,433]: negativecharger.alphaticr.gap0 : 0.0071
+[2019-08-29 20:52:35,433]: aromatic.uncharger.gap0 : 0.0071
+[2019-08-29 20:52:35,433]: postivecharger.postivecharger.gap4 : 0.0071
+[2019-08-29 20:52:35,433]: negativecharger.uncharger.gap2 : 0.0071
+[2019-08-29 20:52:35,433]: uncharger.alphaticr.gap2 : 0.0071
+[2019-08-29 20:52:35,433]: alphaticr.negativecharger.gap5 : 0.0070
+[2019-08-29 20:52:35,433]: aromatic.postivecharger.gap4 : 0.0070
+[2019-08-29 20:52:35,433]: negativecharger.aromatic.gap3 : 0.0070
+[2019-08-29 20:52:35,433]: uncharger.postivecharger.gap5 : 0.0069
+[2019-08-29 20:52:35,433]: aromatic.negativecharger.gap1 : 0.0069
+[2019-08-29 20:52:35,433]: postivecharger.uncharger.gap5 : 0.0068
+[2019-08-29 20:52:35,433]: negativecharger.postivecharger.gap1 : 0.0068
+[2019-08-29 20:52:35,434]: aromatic.uncharger.gap2 : 0.0068
+[2019-08-29 20:52:35,434]: alphaticr.negativecharger.gap0 : 0.0068
+[2019-08-29 20:52:35,434]: postivecharger.alphaticr.gap5 : 0.0068
+[2019-08-29 20:52:35,434]: negativecharger.alphaticr.gap1 : 0.0068
+[2019-08-29 20:52:35,434]: negativecharger.uncharger.gap1 : 0.0068
+[2019-08-29 20:52:35,434]: alphaticr.aromatic.gap1 : 0.0068
+[2019-08-29 20:52:35,434]: aromatic.aromatic.gap4 : 0.0068
+[2019-08-29 20:52:35,434]: aromatic.aromatic.gap0 : 0.0068
+[2019-08-29 20:52:35,434]: negativecharger.alphaticr.gap5 : 0.0067
+[2019-08-29 20:52:35,434]: negativecharger.postivecharger.gap2 : 0.0067
+[2019-08-29 20:52:35,434]: uncharger.aromatic.gap4 : 0.0066
+[2019-08-29 20:52:35,434]: aromatic.aromatic.gap1 : 0.0066
+[2019-08-29 20:52:35,434]: aromatic.alphaticr.gap1 : 0.0066
+[2019-08-29 20:52:35,435]: alphaticr.alphaticr.gap2 : 0.0066
+[2019-08-29 20:52:35,435]: alphaticr.uncharger.gap4 : 0.0066
+[2019-08-29 20:52:35,435]: negativecharger.uncharger.gap5 : 0.0066
+[2019-08-29 20:52:35,435]: postivecharger.aromatic.gap4 : 0.0066
+[2019-08-29 20:52:35,435]: postivecharger.negativecharger.gap0 : 0.0066
+[2019-08-29 20:52:35,435]: uncharger.negativecharger.gap5 : 0.0066
+[2019-08-29 20:52:35,435]: negativecharger.aromatic.gap5 : 0.0066
+[2019-08-29 20:52:35,435]: postivecharger.aromatic.gap2 : 0.0065
+[2019-08-29 20:52:35,435]: alphaticr.postivecharger.gap2 : 0.0065
+[2019-08-29 20:52:35,435]: aromatic.aromatic.gap5 : 0.0065
+[2019-08-29 20:52:35,435]: aromatic.negativecharger.gap3 : 0.0065
+[2019-08-29 20:52:35,435]: aromatic.postivecharger.gap0 : 0.0065
+[2019-08-29 20:52:35,435]: alphaticr.negativecharger.gap1 : 0.0065
+[2019-08-29 20:52:35,435]: alphaticr.uncharger.gap5 : 0.0065
+[2019-08-29 20:52:35,436]: negativecharger.negativecharger.gap2 : 0.0065
+[2019-08-29 20:52:35,436]: postivecharger.postivecharger.gap0 : 0.0065
+[2019-08-29 20:52:35,436]: uncharger.alphaticr.gap3 : 0.0065
+[2019-08-29 20:52:35,436]: alphaticr.aromatic.gap5 : 0.0065
+[2019-08-29 20:52:35,436]: alphaticr.uncharger.gap3 : 0.0065
+[2019-08-29 20:52:35,436]: uncharger.aromatic.gap2 : 0.0065
+[2019-08-29 20:52:35,436]: negativecharger.postivecharger.gap0 : 0.0065
+[2019-08-29 20:52:35,436]: negativecharger.aromatic.gap0 : 0.0065
+[2019-08-29 20:52:35,436]: negativecharger.alphaticr.gap2 : 0.0065
+[2019-08-29 20:52:35,436]: aromatic.postivecharger.gap3 : 0.0065
+[2019-08-29 20:52:35,436]: postivecharger.negativecharger.gap4 : 0.0065
+[2019-08-29 20:52:35,436]: aromatic.negativecharger.gap4 : 0.0064
+[2019-08-29 20:52:35,436]: uncharger.alphaticr.gap4 : 0.0064
+[2019-08-29 20:52:35,436]: uncharger.negativecharger.gap4 : 0.0064
+[2019-08-29 20:52:35,437]: negativecharger.negativecharger.gap1 : 0.0064
+[2019-08-29 20:52:35,437]: aromatic.aromatic.gap3 : 0.0064
+[2019-08-29 20:52:35,437]: postivecharger.postivecharger.gap2 : 0.0064
+[2019-08-29 20:52:35,437]: postivecharger.aromatic.gap1 : 0.0064
+[2019-08-29 20:52:35,437]: negativecharger.uncharger.gap0 : 0.0064
+[2019-08-29 20:52:35,437]: postivecharger.alphaticr.gap2 : 0.0064
+[2019-08-29 20:52:35,437]: alphaticr.aromatic.gap3 : 0.0064
+[2019-08-29 20:52:35,437]: postivecharger.alphaticr.gap3 : 0.0064
+[2019-08-29 20:52:35,437]: alphaticr.uncharger.gap0 : 0.0064
+[2019-08-29 20:52:35,437]: negativecharger.aromatic.gap1 : 0.0064
+[2019-08-29 20:52:35,437]: alphaticr.postivecharger.gap1 : 0.0064
+[2019-08-29 20:52:35,437]: alphaticr.postivecharger.gap4 : 0.0064
+[2019-08-29 20:52:35,437]: uncharger.uncharger.gap4 : 0.0064
+[2019-08-29 20:52:35,437]: postivecharger.uncharger.gap1 : 0.0064
+[2019-08-29 20:52:35,438]: negativecharger.postivecharger.gap4 : 0.0064
+[2019-08-29 20:52:35,438]: postivecharger.postivecharger.gap5 : 0.0064
+[2019-08-29 20:52:35,438]: alphaticr.alphaticr.gap3 : 0.0064
+[2019-08-29 20:52:35,438]: postivecharger.negativecharger.gap1 : 0.0064
+[2019-08-29 20:52:35,438]: negativecharger.negativecharger.gap4 : 0.0063
+[2019-08-29 20:52:35,438]: aromatic.uncharger.gap3 : 0.0063
+[2019-08-29 20:52:35,438]: alphaticr.negativecharger.gap4 : 0.0063
+[2019-08-29 20:52:35,438]: postivecharger.negativecharger.gap2 : 0.0063
+[2019-08-29 20:52:35,438]: postivecharger.aromatic.gap0 : 0.0063
+[2019-08-29 20:52:35,438]: uncharger.negativecharger.gap3 : 0.0063
+[2019-08-29 20:52:35,438]: uncharger.negativecharger.gap2 : 0.0063
+[2019-08-29 20:52:35,438]: negativecharger.negativecharger.gap0 : 0.0063
+[2019-08-29 20:52:35,439]: uncharger.negativecharger.gap0 : 0.0063
+[2019-08-29 20:52:35,439]: alphaticr.aromatic.gap4 : 0.0063
+[2019-08-29 20:52:35,439]: aromatic.postivecharger.gap2 : 0.0063
+[2019-08-29 20:52:35,439]: negativecharger.postivecharger.gap3 : 0.0063
+[2019-08-29 20:52:35,439]: postivecharger.alphaticr.gap4 : 0.0063
+[2019-08-29 20:52:35,439]: postivecharger.aromatic.gap5 : 0.0063
+[2019-08-29 20:52:35,439]: aromatic.aromatic.gap2 : 0.0063
+[2019-08-29 20:52:35,439]: aromatic.negativecharger.gap2 : 0.0062
+[2019-08-29 20:52:35,439]: alphaticr.negativecharger.gap2 : 0.0062
+[2019-08-29 20:52:35,439]: negativecharger.uncharger.gap4 : 0.0062
+[2019-08-29 20:52:35,439]: alphaticr.uncharger.gap2 : 0.0062
+[2019-08-29 20:52:35,439]: negativecharger.uncharger.gap3 : 0.0062
+[2019-08-29 20:52:35,439]: uncharger.uncharger.gap0 : 0.0061
+[2019-08-29 20:52:35,440]: negativecharger.aromatic.gap4 : 0.0060
+[2019-08-29 20:52:35,440]: uncharger.postivecharger.gap3 : 0.0060
+[2019-08-29 20:52:35,440]: uncharger.uncharger.gap1 : 0.0059
+[2019-08-29 20:52:35,440]: alphaticr.postivecharger.gap5 : 0.0059
+[2019-08-29 20:52:35,440]: aromatic.alphaticr.gap2 : 0.0058
+[2019-08-29 20:52:35,440]: aromatic.alphaticr.gap5 : 0.0058
+[2019-08-29 20:52:35,440]: alphaticr.uncharger.gap1 : 0.0058
+[2019-08-29 20:52:35,440]: postivecharger.negativecharger.gap3 : 0.0056
+[2019-08-29 20:52:35,441]: negativecharger.negativecharger.gap5 : 0.0056
+[2019-08-29 20:52:35,441]: alphaticr.postivecharger.gap0 : 0.0056
+[2019-08-29 20:52:35,441]: negativecharger.postivecharger.gap5 : 0.0054
+[2019-08-29 20:52:35,441]: aromatic.postivecharger.gap1 : 0.0054
+[2019-08-29 20:52:35,441]: postivecharger.postivecharger.gap3 : 0.0054
+[2019-08-29 20:52:35,441]: negativecharger.negativecharger.gap3 : 0.0053
+[2019-08-29 20:52:35,441]: uncharger.uncharger.gap5 : 0.0048
+[2019-08-29 20:52:35,441]: aromatic.alphaticr.gap0 : 0.0048
+[2019-08-29 20:52:35,441]: aromatic.alphaticr.gap3 : 0.0046
+[2019-08-29 20:52:35,441]: feature_rank end
+[2019-08-29 20:52:35,491]: Start dimension reduction ...

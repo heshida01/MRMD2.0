@@ -1,0 +1,402 @@
+[2019-08-18 10:29:26,015]: ---mrmd 2.0 start----
+[2019-08-18 10:29:26,050]: ANOVA start...
+[2019-08-18 10:29:26,062]: ANOVA end.
+[2019-08-18 10:29:26,062]: mic start...
+[2019-08-18 10:29:31,270]: mic end.
+[2019-08-18 10:29:31,270]: mrmd start...
+[2019-08-18 10:29:31,536]: mrmd end.
+[2019-08-18 10:29:31,536]: mRMR start...
+[2019-08-18 10:29:41,941]: mRMR end.
+[2019-08-18 10:29:41,941]: lasso start...
+[2019-08-18 10:29:41,968]: lasso end.
+[2019-08-18 10:29:41,968]: lasso2 start...
+[2019-08-18 10:29:42,739]: lasso2 end.
+[2019-08-18 10:29:42,740]: rank start ...
+[2019-08-18 10:29:42,764]: The final  rank is
+[2019-08-18 10:29:42,765]: A : 0.0058
+[2019-08-18 10:29:42,765]: C : 0.0058
+[2019-08-18 10:29:42,765]: D : 0.0058
+[2019-08-18 10:29:42,766]: E : 0.0058
+[2019-08-18 10:29:42,766]: F : 0.0058
+[2019-08-18 10:29:42,766]: H : 0.0058
+[2019-08-18 10:29:42,766]: K : 0.0058
+[2019-08-18 10:29:42,766]: L : 0.0058
+[2019-08-18 10:29:42,766]: N : 0.0058
+[2019-08-18 10:29:42,766]: P : 0.0058
+[2019-08-18 10:29:42,766]: R : 0.0058
+[2019-08-18 10:29:42,767]: S : 0.0058
+[2019-08-18 10:29:42,767]: V : 0.0058
+[2019-08-18 10:29:42,767]: alphatic : 0.0058
+[2019-08-18 10:29:42,767]: aromatic : 0.0058
+[2019-08-18 10:29:42,767]: postivecharge : 0.0058
+[2019-08-18 10:29:42,767]: negativecharge : 0.0058
+[2019-08-18 10:29:42,767]: uncharge : 0.0058
+[2019-08-18 10:29:42,767]: Cornette_A : 0.0058
+[2019-08-18 10:29:42,767]: Cornette_C : 0.0058
+[2019-08-18 10:29:42,768]: Cornette_D : 0.0058
+[2019-08-18 10:29:42,768]: Cornette_E : 0.0058
+[2019-08-18 10:29:42,768]: Cornette_F : 0.0058
+[2019-08-18 10:29:42,768]: Cornette_H : 0.0058
+[2019-08-18 10:29:42,768]: Cornette_I : 0.0058
+[2019-08-18 10:29:42,768]: Cornette_K : 0.0058
+[2019-08-18 10:29:42,768]: Cornette_L : 0.0058
+[2019-08-18 10:29:42,768]: Cornette_M : 0.0058
+[2019-08-18 10:29:42,768]: Cornette_N : 0.0058
+[2019-08-18 10:29:42,768]: Cornette_P : 0.0058
+[2019-08-18 10:29:42,768]: Cornette_Q : 0.0058
+[2019-08-18 10:29:42,769]: Cornette_R : 0.0058
+[2019-08-18 10:29:42,769]: Cornette_S : 0.0058
+[2019-08-18 10:29:42,769]: Cornette_T : 0.0058
+[2019-08-18 10:29:42,769]: Cornette_V : 0.0058
+[2019-08-18 10:29:42,769]: Cornette_Y : 0.0058
+[2019-08-18 10:29:42,769]: Eisenberg_A : 0.0058
+[2019-08-18 10:29:42,769]: Eisenberg_C : 0.0058
+[2019-08-18 10:29:42,769]: Eisenberg_D : 0.0058
+[2019-08-18 10:29:42,769]: Eisenberg_E : 0.0058
+[2019-08-18 10:29:42,769]: Eisenberg_F : 0.0058
+[2019-08-18 10:29:42,769]: Eisenberg_H : 0.0058
+[2019-08-18 10:29:42,769]: Eisenberg_I : 0.0058
+[2019-08-18 10:29:42,770]: Eisenberg_K : 0.0058
+[2019-08-18 10:29:42,770]: Eisenberg_L : 0.0058
+[2019-08-18 10:29:42,770]: Eisenberg_N : 0.0058
+[2019-08-18 10:29:42,770]: Eisenberg_P : 0.0058
+[2019-08-18 10:29:42,770]: Eisenberg_R : 0.0058
+[2019-08-18 10:29:42,770]: Eisenberg_S : 0.0058
+[2019-08-18 10:29:42,770]: Eisenberg_V : 0.0058
+[2019-08-18 10:29:42,770]: Engelman_GES_A : 0.0058
+[2019-08-18 10:29:42,770]: Engelman_GES_C : 0.0058
+[2019-08-18 10:29:42,770]: Engelman_GES_D : 0.0058
+[2019-08-18 10:29:42,770]: Engelman_GES_E : 0.0058
+[2019-08-18 10:29:42,771]: Engelman_GES_F : 0.0058
+[2019-08-18 10:29:42,771]: Engelman_GES_H : 0.0058
+[2019-08-18 10:29:42,771]: Engelman_GES_I : 0.0058
+[2019-08-18 10:29:42,771]: Engelman_GES_K : 0.0058
+[2019-08-18 10:29:42,771]: Engelman_GES_L : 0.0058
+[2019-08-18 10:29:42,771]: Engelman_GES_M : 0.0058
+[2019-08-18 10:29:42,771]: Engelman_GES_N : 0.0058
+[2019-08-18 10:29:42,771]: Engelman_GES_P : 0.0058
+[2019-08-18 10:29:42,771]: Engelman_GES_Q : 0.0058
+[2019-08-18 10:29:42,771]: Engelman_GES_R : 0.0058
+[2019-08-18 10:29:42,771]: Engelman_GES_S : 0.0058
+[2019-08-18 10:29:42,772]: Engelman_GES_V : 0.0058
+[2019-08-18 10:29:42,772]: Hopp_Woods_A : 0.0058
+[2019-08-18 10:29:42,772]: Hopp_Woods_C : 0.0058
+[2019-08-18 10:29:42,772]: Hopp_Woods_D : 0.0058
+[2019-08-18 10:29:42,772]: Hopp_Woods_E : 0.0058
+[2019-08-18 10:29:42,772]: Hopp_Woods_F : 0.0058
+[2019-08-18 10:29:42,772]: Hopp_Woods_H : 0.0058
+[2019-08-18 10:29:42,772]: Hopp_Woods_I : 0.0058
+[2019-08-18 10:29:42,772]: Hopp_Woods_K : 0.0058
+[2019-08-18 10:29:42,772]: Hopp_Woods_L : 0.0058
+[2019-08-18 10:29:42,772]: Hopp_Woods_M : 0.0058
+[2019-08-18 10:29:42,773]: Hopp_Woods_R : 0.0058
+[2019-08-18 10:29:42,773]: Hopp_Woods_S : 0.0058
+[2019-08-18 10:29:42,773]: Hopp_Woods_V : 0.0058
+[2019-08-18 10:29:42,773]: Hopp_Woods_W : 0.0058
+[2019-08-18 10:29:42,773]: Hopp_Woods_Y : 0.0058
+[2019-08-18 10:29:42,773]: Janin_A : 0.0058
+[2019-08-18 10:29:42,773]: Janin_C : 0.0058
+[2019-08-18 10:29:42,773]: Janin_D : 0.0058
+[2019-08-18 10:29:42,773]: Janin_E : 0.0058
+[2019-08-18 10:29:42,773]: Janin_F : 0.0058
+[2019-08-18 10:29:42,773]: Janin_H : 0.0058
+[2019-08-18 10:29:42,774]: Janin_K : 0.0058
+[2019-08-18 10:29:42,774]: Janin_L : 0.0058
+[2019-08-18 10:29:42,774]: Janin_N : 0.0058
+[2019-08-18 10:29:42,774]: Janin_P : 0.0058
+[2019-08-18 10:29:42,774]: Janin_R : 0.0058
+[2019-08-18 10:29:42,774]: Janin_S : 0.0058
+[2019-08-18 10:29:42,774]: Janin_Y : 0.0058
+[2019-08-18 10:29:42,774]: Kyte_Doolittle_A : 0.0058
+[2019-08-18 10:29:42,774]: Kyte_Doolittle_C : 0.0058
+[2019-08-18 10:29:42,774]: Kyte_Doolittle_D : 0.0058
+[2019-08-18 10:29:42,774]: Kyte_Doolittle_E : 0.0058
+[2019-08-18 10:29:42,774]: Kyte_Doolittle_F : 0.0058
+[2019-08-18 10:29:42,775]: Kyte_Doolittle_H : 0.0058
+[2019-08-18 10:29:42,775]: Kyte_Doolittle_I : 0.0058
+[2019-08-18 10:29:42,775]: Kyte_Doolittle_K : 0.0058
+[2019-08-18 10:29:42,775]: Kyte_Doolittle_L : 0.0058
+[2019-08-18 10:29:42,775]: Kyte_Doolittle_N : 0.0058
+[2019-08-18 10:29:42,775]: Kyte_Doolittle_P : 0.0058
+[2019-08-18 10:29:42,775]: Kyte_Doolittle_Q : 0.0058
+[2019-08-18 10:29:42,775]: Kyte_Doolittle_R : 0.0058
+[2019-08-18 10:29:42,775]: Kyte_Doolittle_S : 0.0058
+[2019-08-18 10:29:42,775]: Kyte_Doolittle_V : 0.0058
+[2019-08-18 10:29:42,775]: Kyte_Doolittle_Y : 0.0058
+[2019-08-18 10:29:42,775]: Rose_A : 0.0058
+[2019-08-18 10:29:42,775]: Rose_C : 0.0058
+[2019-08-18 10:29:42,776]: Rose_D : 0.0058
+[2019-08-18 10:29:42,776]: Rose_E : 0.0058
+[2019-08-18 10:29:42,776]: Rose_F : 0.0058
+[2019-08-18 10:29:42,776]: Rose_H : 0.0058
+[2019-08-18 10:29:42,776]: Rose_L : 0.0058
+[2019-08-18 10:29:42,776]: Rose_P : 0.0058
+[2019-08-18 10:29:42,776]: Rose_R : 0.0058
+[2019-08-18 10:29:42,776]: Rose_S : 0.0058
+[2019-08-18 10:29:42,777]: Rose_V : 0.0058
+[2019-08-18 10:29:42,777]: hydrophobicity : 0.0058
+[2019-08-18 10:29:42,777]: moderate : 0.0058
+[2019-08-18 10:29:42,777]: hydrophily : 0.0058
+[2019-08-18 10:29:42,777]: positve : 0.0058
+[2019-08-18 10:29:42,777]: neutral : 0.0058
+[2019-08-18 10:29:42,777]: negative : 0.0058
+[2019-08-18 10:29:42,777]: polar : 0.0058
+[2019-08-18 10:29:42,778]: nonpolar : 0.0058
+[2019-08-18 10:29:42,778]: basic_polar : 0.0058
+[2019-08-18 10:29:42,778]: acidic_polar : 0.0058
+[2019-08-18 10:29:42,778]: aliphatic : 0.0058
+[2019-08-18 10:29:42,778]: aromatic.1 : 0.0058
+[2019-08-18 10:29:42,778]: heterocyclics : 0.0058
+[2019-08-18 10:29:42,778]: Janin_Q : 0.0058
+[2019-08-18 10:29:42,778]: Eisenberg_Q : 0.0058
+[2019-08-18 10:29:42,778]: Kyte_Doolittle_M : 0.0058
+[2019-08-18 10:29:42,779]: Janin_V : 0.0058
+[2019-08-18 10:29:42,779]: Janin_W : 0.0058
+[2019-08-18 10:29:42,779]: Engelman_GES_Y : 0.0058
+[2019-08-18 10:29:42,779]: Rose_N : 0.0058
+[2019-08-18 10:29:42,779]: Kyte_Doolittle_T : 0.0058
+[2019-08-18 10:29:42,779]: Rose_K : 0.0058
+[2019-08-18 10:29:42,779]: Eisenberg_T : 0.0058
+[2019-08-18 10:29:42,779]: Rose_I : 0.0058
+[2019-08-18 10:29:42,779]: Hopp_Woods_N : 0.0058
+[2019-08-18 10:29:42,780]: Engelman_GES_T : 0.0058
+[2019-08-18 10:29:42,780]: I : 0.0058
+[2019-08-18 10:29:42,780]: Rose_Y : 0.0058
+[2019-08-18 10:29:42,780]: M : 0.0058
+[2019-08-18 10:29:42,780]: Janin_I : 0.0057
+[2019-08-18 10:29:42,780]: Rose_M : 0.0057
+[2019-08-18 10:29:42,780]: Y : 0.0057
+[2019-08-18 10:29:42,780]: Eisenberg_M : 0.0057
+[2019-08-18 10:29:42,780]: T : 0.0057
+[2019-08-18 10:29:42,780]: Eisenberg_Y : 0.0057
+[2019-08-18 10:29:42,780]: Janin_T : 0.0056
+[2019-08-18 10:29:42,780]: Q : 0.0056
+[2019-08-18 10:29:42,780]: G : 0.0056
+[2019-08-18 10:29:42,781]: Hopp_Woods_T : 0.0055
+[2019-08-18 10:29:42,781]: Kyte_Doolittle_G : 0.0055
+[2019-08-18 10:29:42,781]: Engelman_GES_G : 0.0054
+[2019-08-18 10:29:42,781]: Janin_M : 0.0054
+[2019-08-18 10:29:42,781]: Rose_W : 0.0053
+[2019-08-18 10:29:42,781]: Rose_T : 0.0052
+[2019-08-18 10:29:42,781]: Kyte_Doolittle_W : 0.0051
+[2019-08-18 10:29:42,781]: Eisenberg_W : 0.0050
+[2019-08-18 10:29:42,781]: Rose_Q : 0.0048
+[2019-08-18 10:29:42,782]: Janin_G : 0.0047
+[2019-08-18 10:29:42,782]: Hopp_Woods_Q : 0.0045
+[2019-08-18 10:29:42,782]: Engelman_GES_W : 0.0042
+[2019-08-18 10:29:42,782]: Rose_G : 0.0039
+[2019-08-18 10:29:42,782]: Cornette_W : 0.0036
+[2019-08-18 10:29:42,782]: W : 0.0032
+[2019-08-18 10:29:42,782]: Eisenberg_G : 0.0028
+[2019-08-18 10:29:42,782]: Cornette_G : 0.0022
+[2019-08-18 10:29:42,782]: Hopp_Woods_G : 0.0016
+[2019-08-18 10:29:42,782]: Hopp_Woods_P : 0.0009
+[2019-08-18 10:29:42,782]: feature_rank end
+[2019-08-18 10:29:42,803]: Start dimension reduction ...
+[2019-08-18 10:29:47,049]: length=1 f1=0.5877 accuarcy=0.5870 precision=0.5974 recall=0.5870 roc=0.5916 
+[2019-08-18 10:29:51,382]: length=2 f1=0.7697 accuarcy=0.7717 precision=0.7723 recall=0.7717 roc=0.7630 
+[2019-08-18 10:29:55,982]: length=3 f1=0.8367 accuarcy=0.8370 precision=0.8367 recall=0.8370 roc=0.8338 
+[2019-08-18 10:30:00,366]: length=4 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:30:04,711]: length=5 f1=0.8143 accuarcy=0.8152 precision=0.8152 recall=0.8152 roc=0.8094 
+[2019-08-18 10:30:09,128]: length=6 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:30:13,581]: length=7 f1=0.8249 accuarcy=0.8261 precision=0.8269 recall=0.8261 roc=0.8192 
+[2019-08-18 10:30:17,768]: length=8 f1=0.8249 accuarcy=0.8261 precision=0.8269 recall=0.8261 roc=0.8192 
+[2019-08-18 10:30:21,917]: length=9 f1=0.8143 accuarcy=0.8152 precision=0.8152 recall=0.8152 roc=0.8094 
+[2019-08-18 10:30:26,136]: length=10 f1=0.8143 accuarcy=0.8152 precision=0.8152 recall=0.8152 roc=0.8094 
+[2019-08-18 10:30:30,736]: length=11 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:30:34,960]: length=12 f1=0.8249 accuarcy=0.8261 precision=0.8269 recall=0.8261 roc=0.8192 
+[2019-08-18 10:30:39,106]: length=13 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:30:43,244]: length=14 f1=0.8150 accuarcy=0.8152 precision=0.8149 recall=0.8152 roc=0.8118 
+[2019-08-18 10:30:47,349]: length=15 f1=0.8474 accuarcy=0.8478 precision=0.8478 recall=0.8478 roc=0.8436 
+[2019-08-18 10:30:51,492]: length=16 f1=0.8261 accuarcy=0.8261 precision=0.8261 recall=0.8261 roc=0.8240 
+[2019-08-18 10:30:55,848]: length=17 f1=0.8043 accuarcy=0.8043 precision=0.8043 recall=0.8043 roc=0.8020 
+[2019-08-18 10:31:00,354]: length=18 f1=0.8043 accuarcy=0.8043 precision=0.8043 recall=0.8043 roc=0.8020 
+[2019-08-18 10:31:04,338]: length=19 f1=0.8150 accuarcy=0.8152 precision=0.8149 recall=0.8152 roc=0.8118 
+[2019-08-18 10:31:08,401]: length=20 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:31:12,511]: length=21 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:31:16,621]: length=22 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:31:20,649]: length=23 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:31:24,720]: length=24 f1=0.8150 accuarcy=0.8152 precision=0.8149 recall=0.8152 roc=0.8118 
+[2019-08-18 10:31:28,869]: length=25 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:31:32,926]: length=26 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:31:36,881]: length=27 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:31:41,010]: length=28 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:31:45,157]: length=29 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:31:49,202]: length=30 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:31:53,254]: length=31 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:31:57,306]: length=32 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:32:02,103]: length=33 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:32:06,183]: length=34 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:32:10,146]: length=35 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:32:14,124]: length=36 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:32:18,350]: length=37 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:32:22,402]: length=38 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:32:26,456]: length=39 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:32:30,553]: length=40 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:32:34,694]: length=41 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:32:38,679]: length=42 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:32:42,805]: length=43 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:32:46,861]: length=44 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:32:50,906]: length=45 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:32:54,906]: length=46 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:32:59,371]: length=47 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:33:03,774]: length=48 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:33:07,823]: length=49 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:33:11,941]: length=50 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:33:16,173]: length=51 f1=0.8460 accuarcy=0.8478 precision=0.8518 recall=0.8478 roc=0.8388 
+[2019-08-18 10:33:20,294]: length=52 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:33:24,481]: length=53 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:33:28,465]: length=54 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:33:32,566]: length=55 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:33:36,831]: length=56 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:33:41,376]: length=57 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:33:45,494]: length=58 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:33:49,491]: length=59 f1=0.8249 accuarcy=0.8261 precision=0.8269 recall=0.8261 roc=0.8192 
+[2019-08-18 10:33:53,668]: length=60 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:33:57,832]: length=61 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:34:01,788]: length=62 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:34:06,253]: length=63 f1=0.8687 accuarcy=0.8696 precision=0.8712 recall=0.8696 roc=0.8632 
+[2019-08-18 10:34:10,716]: length=64 f1=0.8474 accuarcy=0.8478 precision=0.8478 recall=0.8478 roc=0.8436 
+[2019-08-18 10:34:14,728]: length=65 f1=0.8474 accuarcy=0.8478 precision=0.8478 recall=0.8478 roc=0.8436 
+[2019-08-18 10:34:18,755]: length=66 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:34:22,963]: length=67 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:34:27,221]: length=68 f1=0.8474 accuarcy=0.8478 precision=0.8478 recall=0.8478 roc=0.8436 
+[2019-08-18 10:34:31,513]: length=69 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:34:35,620]: length=70 f1=0.8249 accuarcy=0.8261 precision=0.8269 recall=0.8261 roc=0.8192 
+[2019-08-18 10:34:39,575]: length=71 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:34:43,583]: length=72 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:34:47,640]: length=73 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:34:51,650]: length=74 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:34:55,677]: length=75 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:34:59,894]: length=76 f1=0.8143 accuarcy=0.8152 precision=0.8152 recall=0.8152 roc=0.8094 
+[2019-08-18 10:35:04,018]: length=77 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:35:08,221]: length=78 f1=0.8680 accuarcy=0.8696 precision=0.8743 recall=0.8696 roc=0.8608 
+[2019-08-18 10:35:12,258]: length=79 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:35:16,332]: length=80 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:35:20,563]: length=81 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:35:24,540]: length=82 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:35:28,620]: length=83 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:35:33,099]: length=84 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:35:37,323]: length=85 f1=0.8249 accuarcy=0.8261 precision=0.8269 recall=0.8261 roc=0.8192 
+[2019-08-18 10:35:41,528]: length=86 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:35:45,444]: length=87 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:35:49,487]: length=88 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:35:53,382]: length=89 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:35:57,420]: length=90 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:36:01,356]: length=91 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:36:05,420]: length=92 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:36:09,830]: length=93 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:36:13,944]: length=94 f1=0.8474 accuarcy=0.8478 precision=0.8478 recall=0.8478 roc=0.8436 
+[2019-08-18 10:36:17,921]: length=95 f1=0.8043 accuarcy=0.8043 precision=0.8043 recall=0.8043 roc=0.8020 
+[2019-08-18 10:36:21,973]: length=96 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:36:25,957]: length=97 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:36:30,190]: length=98 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:36:34,145]: length=99 f1=0.8460 accuarcy=0.8478 precision=0.8518 recall=0.8478 roc=0.8388 
+[2019-08-18 10:36:38,181]: length=100 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:36:42,070]: length=101 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:36:45,933]: length=102 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:36:50,009]: length=103 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:36:54,080]: length=104 f1=0.8687 accuarcy=0.8696 precision=0.8712 recall=0.8696 roc=0.8632 
+[2019-08-18 10:36:58,062]: length=105 f1=0.8680 accuarcy=0.8696 precision=0.8743 recall=0.8696 roc=0.8608 
+[2019-08-18 10:37:02,054]: length=106 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:37:05,979]: length=107 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:37:10,442]: length=108 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:37:14,992]: length=109 f1=0.8249 accuarcy=0.8261 precision=0.8269 recall=0.8261 roc=0.8192 
+[2019-08-18 10:37:18,952]: length=110 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:37:22,983]: length=111 f1=0.8687 accuarcy=0.8696 precision=0.8712 recall=0.8696 roc=0.8632 
+[2019-08-18 10:37:27,114]: length=112 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:37:31,185]: length=113 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:37:35,213]: length=114 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:37:39,162]: length=115 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:37:43,172]: length=116 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:37:47,133]: length=117 f1=0.8687 accuarcy=0.8696 precision=0.8712 recall=0.8696 roc=0.8632 
+[2019-08-18 10:37:51,104]: length=118 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:37:55,014]: length=119 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:37:59,071]: length=120 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:38:03,088]: length=121 f1=0.8474 accuarcy=0.8478 precision=0.8478 recall=0.8478 roc=0.8436 
+[2019-08-18 10:38:07,077]: length=122 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:38:11,075]: length=123 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:38:15,558]: length=124 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:38:19,493]: length=125 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:38:23,543]: length=126 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:38:27,478]: length=127 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:38:31,384]: length=128 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:38:35,523]: length=129 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:38:39,488]: length=130 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:38:43,564]: length=131 f1=0.8367 accuarcy=0.8370 precision=0.8367 recall=0.8370 roc=0.8338 
+[2019-08-18 10:38:47,525]: length=132 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:38:51,398]: length=133 f1=0.8150 accuarcy=0.8152 precision=0.8149 recall=0.8152 roc=0.8118 
+[2019-08-18 10:38:55,700]: length=134 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:38:59,740]: length=135 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:39:03,855]: length=136 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:39:07,862]: length=137 f1=0.8687 accuarcy=0.8696 precision=0.8712 recall=0.8696 roc=0.8632 
+[2019-08-18 10:39:12,381]: length=138 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:39:17,026]: length=139 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:39:21,060]: length=140 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:39:25,139]: length=141 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:39:29,521]: length=142 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:39:33,463]: length=143 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:39:37,587]: length=144 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:39:41,540]: length=145 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:39:45,454]: length=146 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:39:49,481]: length=147 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:39:53,490]: length=148 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:39:57,380]: length=149 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:40:01,337]: length=150 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:40:05,315]: length=151 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:40:09,325]: length=152 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:40:13,421]: length=153 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:40:17,340]: length=154 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:40:21,789]: length=155 f1=0.8574 accuarcy=0.8587 precision=0.8614 recall=0.8587 roc=0.8510 
+[2019-08-18 10:40:26,043]: length=156 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:40:29,946]: length=157 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:40:33,783]: length=158 f1=0.8143 accuarcy=0.8152 precision=0.8152 recall=0.8152 roc=0.8094 
+[2019-08-18 10:40:37,977]: length=159 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:40:42,445]: length=160 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:40:46,458]: length=161 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:40:50,414]: length=162 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:40:54,436]: length=163 f1=0.8143 accuarcy=0.8152 precision=0.8152 recall=0.8152 roc=0.8094 
+[2019-08-18 10:40:58,721]: length=164 f1=0.8687 accuarcy=0.8696 precision=0.8712 recall=0.8696 roc=0.8632 
+[2019-08-18 10:41:03,396]: length=165 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:41:07,379]: length=166 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:41:11,299]: length=167 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:41:15,306]: length=168 f1=0.8150 accuarcy=0.8152 precision=0.8149 recall=0.8152 roc=0.8118 
+[2019-08-18 10:41:19,361]: length=169 f1=0.8362 accuarcy=0.8370 precision=0.8372 recall=0.8370 roc=0.8314 
+[2019-08-18 10:41:23,673]: length=170 f1=0.8256 accuarcy=0.8261 precision=0.8259 recall=0.8261 roc=0.8216 
+[2019-08-18 10:41:27,700]: length=171 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:41:32,118]: length=172 f1=0.8687 accuarcy=0.8696 precision=0.8712 recall=0.8696 roc=0.8632 
+[2019-08-18 10:41:36,002]: length=173 f1=0.8687 accuarcy=0.8696 precision=0.8712 recall=0.8696 roc=0.8632 
+[2019-08-18 10:41:40,246]: length=174 f1=0.8150 accuarcy=0.8152 precision=0.8149 recall=0.8152 roc=0.8118 
+[2019-08-18 10:41:44,368]: length=175 f1=0.8355 accuarcy=0.8370 precision=0.8391 recall=0.8370 roc=0.8290 
+[2019-08-18 10:41:48,363]: length=176 f1=0.8474 accuarcy=0.8478 precision=0.8478 recall=0.8478 roc=0.8436 
+[2019-08-18 10:41:52,283]: length=177 f1=0.8468 accuarcy=0.8478 precision=0.8491 recall=0.8478 roc=0.8412 
+[2019-08-18 10:41:56,240]: length=178 f1=0.8580 accuarcy=0.8587 precision=0.8592 recall=0.8587 roc=0.8534 
+[2019-08-18 10:41:56,241]: ----------
+[2019-08-18 10:41:56,241]: the max f1 = 0.8687
+[2019-08-18 10:41:56,241]: ['A' 'C' 'D' 'E' 'F' 'H' 'K' 'L' 'N' 'P' 'R' 'S' 'V' 'alphatic' 'aromatic'
+ 'postivecharge' 'negativecharge' 'uncharge' 'Cornette_A' 'Cornette_C'
+ 'Cornette_D' 'Cornette_E' 'Cornette_F' 'Cornette_H' 'Cornette_I'
+ 'Cornette_K' 'Cornette_L' 'Cornette_M' 'Cornette_N' 'Cornette_P'
+ 'Cornette_Q' 'Cornette_R' 'Cornette_S' 'Cornette_T' 'Cornette_V'
+ 'Cornette_Y' 'Eisenberg_A' 'Eisenberg_C' 'Eisenberg_D' 'Eisenberg_E'
+ 'Eisenberg_F' 'Eisenberg_H' 'Eisenberg_I' 'Eisenberg_K' 'Eisenberg_L'
+ 'Eisenberg_N' 'Eisenberg_P' 'Eisenberg_R' 'Eisenberg_S' 'Eisenberg_V'
+ 'Engelman_GES_A' 'Engelman_GES_C' 'Engelman_GES_D' 'Engelman_GES_E'
+ 'Engelman_GES_F' 'Engelman_GES_H' 'Engelman_GES_I' 'Engelman_GES_K'
+ 'Engelman_GES_L' 'Engelman_GES_M' 'Engelman_GES_N' 'Engelman_GES_P'
+ 'Engelman_GES_Q'],length = 63
+[2019-08-18 10:41:56,241]: -----------
+[2019-08-18 10:42:00,725]: ***confusion matrix***
+[2019-08-18 10:42:00,726]:                pos_class      neg_class      
+[2019-08-18 10:42:00,726]: pos_class      TP:33             FN:8              
+[2019-08-18 10:42:00,726]: neg_class      FP:4              TN:47             
+[2019-08-18 10:42:00,726]: f1 =0.8687 
+[2019-08-18 10:42:00,727]: accuarcy = 0.8696 
+[2019-08-18 10:42:00,727]: precision =0.8712 
+[2019-08-18 10:42:00,728]: recall =0.8696
+[2019-08-18 10:42:00,728]: roc area = 0.8632
+[2019-08-18 10:42:00,740]: -----------
+[2019-08-18 10:42:00,741]: The output by the terminal's log has been saved in the J:\多设备共享\work\MRMD2.0-github\Logs\201908181029.log.
+[2019-08-18 10:42:00,741]: metrics have been saved in the J:\多设备共享\work\MRMD2.0-github\Results\meteixa.csv.
+[2019-08-18 10:42:00,741]: reduced dimensional dataset has been saved in the J:\多设备共享\work\MRMD2.0-github\Results\rd.csv.
+[2019-08-18 10:42:00,741]: ---mrmd 2.0 end---

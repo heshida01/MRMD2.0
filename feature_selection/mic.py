@@ -7,11 +7,7 @@ import  psutil
 import datetime
 
 def readData(file):
-<<<<<<< HEAD
     dataset=pd.read_csv(file,engine='python').dropna(axis=1)
-=======
-    dataset=pd.read_csv(file).dropna(axis=1)
->>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
     feature_name = dataset.columns.values.tolist()
     dataset=np.array(dataset)
     #print(feature_name)

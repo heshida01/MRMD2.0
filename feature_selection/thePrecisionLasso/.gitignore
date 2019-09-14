@@ -1,6 +1,0 @@
-*.pyc
-.idea/*
-test/*
-plink/* 
-*.output
-.ipynb_checkpoints/*

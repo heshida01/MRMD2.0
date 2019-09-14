@@ -17,6 +17,7 @@ Please use the python3.6 , some packages do not support higher versions.
   ```
    ### Command 'pip3' not found
    apt install python3-pip
+
    ###  ModuleNotFoundError: No module named 'setuptools'
    pip3 install setuptools 
    ### ModuleNotFoundError: No module named 'numpy'
