@@ -42,3 +42,6 @@ python3  mrmd2.0.py  -i test.arff -o metrics.csv  -c Dimensionalized_dataset.arf
 python3  mrmd2.0.py  -i test.libsvm -o metrics.csv  -c Dimensionalized_dataset.libsvm
 ```
 
+#### 4. logs
+delete pymrmr
+add rfe , chi2
