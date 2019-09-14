@@ -1,0 +1,8 @@
+scipy==1.2.1
+minepy==1.2.2
+numpy==1.15.1
+psutil==5.4.7
+pandas==0.23.4
+python_graph_core==1.8.2
+pysnptools==0.3.14
+scikit_learn==0.20.3
