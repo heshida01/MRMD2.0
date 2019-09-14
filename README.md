@@ -23,7 +23,7 @@ We recommend using python3.6.
  
  * -e User-specified interval ending position （default -1）
  
- * -l step length （default ，Larger steps will execute faster, and smaller results will be better.）
+ * -l step length （default 1，Larger steps will execute faster, and smaller results will be better.）
  
  * -o  Some indicators of the dimensionality reduction data set 
  
@@ -43,5 +43,7 @@ python3  mrmd2.0.py  -i test.libsvm -o metrics.csv  -c Dimensionalized_dataset.l
 ```
 
 #### 4. logs
-delete pymrmr
-add rfe , chi2
+delete pymrmr  
+add rfe , chi2  
+
+If you have any questions.please contact me (heshida@tju.edu.cn)
