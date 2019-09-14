@@ -34,9 +34,9 @@
  * 步长设为1  
  ```
 ```
-python3  mrmd2.0.py  -i test.csv -o metrics.csv  -c Dimensionalized_dataset.csv
-python3  mrmd2.0.py  -i test.arff -o metrics.csv  -c Dimensionalized_dataset.arff
-python3  mrmd2.0.py  -i test.libsvm -o metrics.csv  -c Dimensionalized_dataset.libsvm
+python3  mrmd2.0.py  -i test.csv -o metrics.csv  -c Dimensionalized_dataset.csv  
+python3  mrmd2.0.py  -i test.arff -o metrics.csv  -c Dimensionalized_dataset.arff  
+python3  mrmd2.0.py  -i test.libsvm -o metrics.csv  -c Dimensionalized_dataset.libsvm  
 ```
 
  ```
