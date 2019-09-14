@@ -3,7 +3,11 @@ import pandas as pd
 import math
 
 def read_csv(filecsv):
+<<<<<<< HEAD
     dataset=pd.read_csv(filecsv,engine='python').dropna(axis=1)
+=======
+    dataset=pd.read_csv(filecsv).dropna(axis=1)
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
     features_name = dataset.columns.values.tolist()
     dataset=np.array(dataset)
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Cython==0.28.2
 catboost==0.16.3
 setuptools==39.1.0
@@ -12,3 +13,13 @@ python_graph_core==1.8.2
 pysnptools==0.3.14
 scikit_learn==0.21.3
 PyYAML==5.1.2
+=======
+scipy==1.2.1
+minepy==1.2.2
+numpy==1.15.1
+psutil==5.4.7
+pandas==0.23.4
+python_graph_core==1.8.2
+pysnptools==0.3.14
+scikit_learn==0.20.3
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env python3
 # -*- coding=utf-8 -*-
 
@@ -7,10 +8,16 @@ def warn(*args, **kwargs):
 import warnings
 warnings.warn = warn
 
+=======
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
 from math import ceil
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
+<<<<<<< HEAD
+=======
+from sklearn.model_selection import cross_validate
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
 from feature_Rank import feature_rank
 import argparse
 import sklearn.metrics
@@ -21,6 +28,7 @@ from scipy.io import arff
 from sklearn.datasets import load_svmlight_file
 from sklearn.datasets import dump_svmlight_file
 from format import pandas2arff
+<<<<<<< HEAD
 
 
 def parse_args():
@@ -40,6 +48,18 @@ def parse_args():
     parser.add_argument("-o", type=str, help="result score file")
     parser.add_argument("-c", type=str, help="output  file")
 
+=======
+from format import clean_tmpfile
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-s", type=int, help="start index")
+    parser.add_argument("-i", type=str, help="input file")
+    parser.add_argument("-e", type=int, help="end index")
+    parser.add_argument("-l",  type=int, help="step length")
+    parser.add_argument("-m", type=int, help="mrmr features top n",default=-1)
+    parser.add_argument("-o", type=str, help="result score file")
+    parser.add_argument("-c", type=str, help="output  file")
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
     args = parser.parse_args()
 
     return args
@@ -52,7 +72,11 @@ class Dim_Rd(object):
     def read_data(self):  #default csv
 
         def read_csv():
+<<<<<<< HEAD
             self.df = pd.read_csv(self.file_csv,engine='python').dropna(axis=1)
+=======
+            self.df = pd.read_csv(self.file_csv).dropna(axis=1)
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
             datas = np.array(self.df)
             self.datas = datas
             self.X = datas[:, 1:]
@@ -69,12 +93,18 @@ class Dim_Rd(object):
 
     def Randomforest(self,X,y):
         clf = RandomForestClassifier(random_state=1, n_estimators=100)
+<<<<<<< HEAD
         #cv_results=cross_validate(clf,X,y,return_train_score=False,cv=10,n_jobs=-1)
+=======
+        clf.fit(X,y)
+        cv_results=cross_validate(clf,X,y,return_train_score=False,cv=10,n_jobs=-1)
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
         ypred = sklearn.model_selection.cross_val_predict(clf, X, y, n_jobs=-1, cv=10)
         f1=sklearn.metrics.f1_score(y,ypred,average='weighted')
         precision = sklearn.metrics.precision_score(self.y, ypred, average='weighted')
         recall = sklearn.metrics.recall_score(self.y, ypred, average='weighted')
         roc = sklearn.metrics.roc_auc_score(self.y, ypred, average='weighted')
+<<<<<<< HEAD
         acc = sklearn.metrics.accuracy_score(self.y,ypred)
 
         return acc,f1,precision,recall,roc,ypred
@@ -82,6 +112,13 @@ class Dim_Rd(object):
     def Result(self,seqmax,clf,features,csvfile):
         ypred = sklearn.model_selection.cross_val_predict(clf,self.X[:,seqmax],self.y, n_jobs=-1,cv=10)
         # print(ypred)
+=======
+
+        return cv_results['test_score'].mean(),f1,precision,recall,roc
+
+    def Result(self,seqmax,clf,features,csvfile):
+        ypred = sklearn.model_selection.cross_val_predict(clf,self.X[:,seqmax],self.y, n_jobs=-1,cv=10)
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
         confusion_matrix = sklearn.metrics.confusion_matrix(self.y,ypred,)
 
         TP = confusion_matrix[1, 1]
@@ -89,7 +126,11 @@ class Dim_Rd(object):
         FP = confusion_matrix[0, 1]
         FN = confusion_matrix[1, 0]
         logger.info('***confusion matrix***')
+<<<<<<< HEAD
 
+=======
+        #f.write(('***confusion matrix***'+'\n'))
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
         s1 = '{:<15}'.format('')
         #f.write(s1)
         s2 = '{:<15}'.format('pos_class')
@@ -113,6 +154,7 @@ class Dim_Rd(object):
         s3 = 'TN:{:<15}'.format(TN)
         #f.write(s3)
         logger.info(s1+s2+s3)
+<<<<<<< HEAD
         f1 = sklearn.metrics.f1_score(self.y,ypred,average='weighted')
         #f.write('f1 ={}\n '.format(f1))
         logger.info(('f1 ={:0.4f} '.format(f1)))
@@ -129,11 +171,32 @@ class Dim_Rd(object):
         #f.write('roc area = {}\n'.format(roc))
         logger.info('auc = {:0.4f}'.format(auc))
 
+=======
+        acc = sklearn.metrics.accuracy_score(self.y,ypred,)
+
+        logger.info('accuarcy = {:} '.format(acc))
+        #f.write('accuarcy = {:} \n'.format(acc))
+        precision = sklearn.metrics.precision_score(self.y,ypred,average='weighted')
+        logger.info('precision ={} '.format(precision))
+        #f.write('precision ={} \n'.format(precision))
+        recall = sklearn.metrics.recall_score(self.y,ypred,average ='weighted')
+        logger.info(('recall ={}'.format(recall)))
+        #f.write('recall ={}\n '.format(recall))
+        f1 = sklearn.metrics.f1_score(self.y,ypred,average='weighted')
+        #f.write('f1 ={}\n '.format(f1))
+        logger.info(('f1 ={} '.format(f1)))
+        roc = sklearn.metrics.roc_auc_score(self.y,ypred,average='weighted')
+        #f.write('roc area = {}\n'.format(roc))
+        logger.info('roc area = {}'.format(roc))
+        #with open('test.arff') as f:
+        #data=np.concatenate((self.y,self.X[:,seqmax]),axis=1)
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
         columns_index=[0]
         columns_index.extend([i+1 for i in seqmax])
         data = np.concatenate((self.y.reshape(len(self.y),1), self.X[:, seqmax]),axis=1)
         features_list=(self.df.columns.values)
 
+<<<<<<< HEAD
         ###实现-m参数
         if args.m == -1:
             pass
@@ -143,6 +206,10 @@ class Dim_Rd(object):
         df = pd.DataFrame(data, columns=features_list[columns_index])
         df.to_csv(csvfile, index=None)
 
+=======
+        df=pd.DataFrame(data,columns=features_list[columns_index])
+        df.to_csv(csvfile,index=None)
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
     def Dim_reduction(self,features,features_sorted,outfile,csvfile):
         logger.info("Start dimension reduction ...")
         features_number=[]
@@ -151,7 +218,10 @@ class Dim_Rd(object):
         stepSum=0
         max=0
         seqmax=[]
+<<<<<<< HEAD
         predmax = []
+=======
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
         scorecsv=outfile
 
         with open(scorecsv,'w') as f:
@@ -165,6 +235,7 @@ class Dim_Rd(object):
                 stepSum+=self.length
 
                 ix = features_number[self.start - 1:n]
+<<<<<<< HEAD
                 acc,f1,precision,recall,auc,ypred= self.Randomforest(self.X[:, ix], self.y)
 
                 if args.t == "f1":
@@ -188,6 +259,40 @@ class Dim_Rd(object):
 
         logger.info('----------')
         logger.info('the max {} = {:0.4f}'.format(args.t,max))
+=======
+                acc,f1,precision,recall,roc = self.Randomforest(self.X[:, ix], self.y)
+                if acc > max:
+                    max = acc
+                    seqmax = ix
+
+                '''
+                logger.info('length={} accuarcy={:0.4f} f1={:0.4f} '.format( len(ix),acc,f1))
+                f.write('{},{:0.4f},{:0.4f}\n'.format(len(ix),acc,f1))
+                #sklearn.metrics.f1_score(self.y, ypred, average='weighted')
+                '''
+                logger.info('length={} accuarcy={:0.4f} f1={:0.4f} precision={:0.4f} recall={:0.4f} roc={:0.4f} '.format(len(ix), acc, f1,precision,recall,roc))
+                f.write('{},{:0.4f},{:0.4f},{:0.4f},{:0.4f},{:0.4f}\n'.format(len(ix), acc,f1,precision,recall,roc))
+
+                # datadict['len'].append(len(ix))
+                # datadict['acc'].append(acc)
+                # datadict['f1'].append(f1)
+                # datadict['precision'].append(precision)
+                # datadict['recall'].append(recall)
+                # datadict['roc'].append(roc)
+                '''
+                datadict.setdefault('len',[]).append(len(ix))
+                datadict.setdefault('acc', []).append(acc)
+                datadict.setdefault('f1', []).append(f1)
+                datadict.setdefault('precision', []).append(precision)
+                datadict.setdefault('recall', []).append(recall)
+                datadict.setdefault('roc', []).append(roc)
+              
+        line_chart(datadict)
+        '''
+
+        logger.info('----------')
+        logger.info('the max acc = {:0.4f}'.format(max))
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
 
 
         index_add1 = [x + 1 for x in seqmax]
@@ -208,7 +313,11 @@ class Dim_Rd(object):
         features,features_sorted=feature_rank(file,self.logger,mrmr_featurLen)
         self.read_data()
         if int(args.e) == -1:
+<<<<<<< HEAD
             args.e = len(pd.read_csv(file,engine='python').columns) - 1
+=======
+            args.e = len(pd.read_csv(file).columns) - 1
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
         self.range_steplen(args.s, args.e, args.l)
         outputfile = os.getcwd()+os.sep+'Results'+os.sep+outputfile
         csvfile = os.getcwd()+os.sep+'Results'+os.sep+csvfile
@@ -284,7 +393,11 @@ if __name__ == '__main__':
         assert "format error"
     #format : arff or libsvm to csv
     if int(args.e) == -1:
+<<<<<<< HEAD
         args.e = len(pd.read_csv(file,engine='python').columns) - 1
+=======
+        args.e = len(pd.read_csv(file).columns) - 1
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
     d=Dim_Rd(file,logger)
 
     d.run(inputfile=file)
@@ -309,7 +422,17 @@ if __name__ == '__main__':
         df['class'] = temp
         DimensionReduction_filename = os.path.abspath('./Results') + os.sep+args.c
         pandas2arff.pandas2arff(df,  filename=r'./Results/{}'.format(args.c), wekaname=filename, cleanstringdata=False, cleannan=True)
+<<<<<<< HEAD
 
+=======
+        #pandas2arff.pandas2arff(df, args.c, wekaname=DimensionReduction_filename, cleanstringdata=False,
+                                #cleannan=True)
+
+        # if os.exists(DimensionReduction_filename):
+        #     clean_tmpfile.clean_csv(DimensionReduction_filename)
+        #os.rename(args.c,DimensionReduction_filename)  # move file  to Results folder
+        #clean_tmpfile.clean_csv(csvfile)
+>>>>>>> 693f4dc7a2f863b47ee6530f5ac9eb12fbe8672b
         logger.info('reduced dimensional dataset has been saved in the {}.'.format(DimensionReduction_filename))
         #clean_csv(csvfile)
 
