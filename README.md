@@ -8,6 +8,8 @@ We recommend using python3.6(support linux,windows).
   pip3 install -r requirements.txt 
   ```  
 
+  ##### note:
+  If the installation of a Windows user's mine package fails, download the corresponding version of the WHL file from [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/) to install it.
   
  #### 2. usage:
 
