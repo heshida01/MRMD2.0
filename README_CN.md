@@ -32,11 +32,10 @@
  * test.csv是一个150维的数据集  
  * 首先选择一个降维区间（从第1个特征到第150个特征，也就是对整个特征数据集降维,当然也可以自己选择一个其他的连续的特征区间）  
  * 步长设为1  
- ```
+
 ```
 python3  mrmd2.0.py  -i test.csv -o metrics.csv  -c Dimensionalized_dataset.csv  
 python3  mrmd2.0.py  -i test.arff -o metrics.csv  -c Dimensionalized_dataset.arff  
 python3  mrmd2.0.py  -i test.libsvm -o metrics.csv  -c Dimensionalized_dataset.libsvm  
 ```
 
- ```
