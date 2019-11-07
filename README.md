@@ -1,7 +1,7 @@
 ## [mrmd2.0.py](http://lab.malab.cn:5001/MRMD2.0/Home)
  
 #### 1. Installation：
-We recommend using python3.6.  
+We recommend using python3.6(support linux,windows).  
 
 
   ```
