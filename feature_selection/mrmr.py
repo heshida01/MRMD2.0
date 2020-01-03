@@ -36,10 +36,14 @@ def mRMR(filecsv):
 
 
 def run(filecsv,logger):
-    logger.info('mRMR start...')
-    result = mRMR(filecsv)
-    logger.info('mRMR end.')
-    return result
+    try:
+        logger.info('mRMR start...')
+        result = mRMR(filecsv)
+        logger.info('mRMR end.')
+    except:
+        return []
+    else:
+        return result
 
 if __name__ == '__main__':
     filecsv = '../mixfeature_frequency_DBD.csv'
