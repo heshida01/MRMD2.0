@@ -336,7 +336,7 @@ if __name__ == '__main__':
     tsne_scatter(csvfile)
 
 
-    pngpath = os.path.abspath('./Results')+os.sep+args.i+'.png'
+    pngpath = os.path.abspath('./Results')+os.sep+'.png'
     plt.savefig(pngpath)
     logger.info('Scatter charts visualized by t-SNE dataset has been saved in the {}.'.format(pngpath))
 
