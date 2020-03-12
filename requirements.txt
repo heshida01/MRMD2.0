@@ -4,7 +4,7 @@ Cython==0.28.2
 pandas==0.23.0
 numpy==1.17.0
 setuptools==41.2.0
-psutil==5.4.5
+psutil==5.6.6
 scipy==1.1.0
 minepy==1.2.4
 python_graph_core==1.8.2
