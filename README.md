@@ -1,8 +1,11 @@
 ## mrmd2.0.py 
 [WebServer](http://lab.malab.cn:5001/MRMD2.0/Home)  
-::: warning  
-*NEW*  
-:::  
+
+You can use the diff language tag to generate some colored text:
+
+```diff
+- News
+```
 #### 1. Installation：
 We recommend using Aanconda(python3.6), support linux,windows.  
 
