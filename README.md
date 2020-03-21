@@ -1,19 +1,21 @@
 ## mrmd2.0.py 
 [WebServer](http://lab.malab.cn:5001/MRMD2.0/Home)  
 # News  
-### The mrmd2.0 environment can now be deployed whth docker.   
+### The mrmd2.0 environment can now be deployed with docker.   
 [Docker installation reference1](https://www.docker.com/products/docker-desktop)  ,   [Docker installation reference2](https://github.com/komavideo/LearnDocker/tree/master/Lesson02)  
 ##### pull the image
   ```
-   sudo docker pull heshida/mrmd2.0:latest
+  sudo docker pull heshida/mrmd2.0:latest
   ```  
 ##### usage:  
   ```
   sudo python3 docker_mrmd2.0.py -i test.csv
   ```
   Please find the results in 'Results' folder
+
+If you don't want to use docker,You can also install it using the following method。
 #### 1. Installation：
-We recommend using Aanconda(python3.6), support linux,windows.  
+We recommend using Aanconda(must python3.6), support linux,windows.  
 
 
   ```
