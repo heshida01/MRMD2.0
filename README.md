@@ -13,7 +13,7 @@
   ```
   Please find the results in 'Results' folder
 
-If you don't want to use docker,You can also install it using the following method。
+###  If you don't want to use docker,You can also install it using the following method:
 #### 1. Installation：
 We recommend using Aanconda(must python3.6), support linux,windows.  
 
