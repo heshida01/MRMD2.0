@@ -1,5 +1,5 @@
 # mrmd2.0.py 
-[WebServer](http://lab.malab.cn:5001/MRMD2.0/Home)  [Chinese version](https://github.com/heshida01/MRMD2.0/blob/master/README_CN.md)
+[WebServer](http://lab.malab.cn:5001/MRMD2.0/Home) ,  [Chinese version](https://github.com/heshida01/MRMD2.0/blob/master/README_CN.md)
 # News  
 ### The mrmd2.0 environment can now be deployed with docker.   
 [Docker installation reference1](https://www.docker.com/products/docker-desktop)  ,   [Docker installation reference2](https://github.com/komavideo/LearnDocker/tree/master/Lesson02)  
