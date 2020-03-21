@@ -11,7 +11,7 @@
   ```
   sudo python3 docker_mrmd2.0.py -i test.csv
   ```
-  Please find the results in 'Results' folder
+  结果请在Results里面查找.
  
 ###  如果您不想使用docker，也可以采用下面的方式安装：   
 #### 1. 安装：
