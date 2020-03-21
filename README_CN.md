@@ -1,7 +1,21 @@
 ## [mrmd2.0.py](http://lab.malab.cn:5001/MRMD2.0/Home)
+
+# 近期更新 
+### 现在可以通过docker部署mrmd2.0环境.   
+[docker安装参考 1（桌面版）](https://www.docker.com/products/docker-desktop)  ,   [docker安装参考 2 （linux）](https://github.com/komavideo/LearnDocker/tree/master/Lesson02)  
+##### 安装成果后获取镜像：
+  ```
+  sudo docker pull heshida/mrmd2.0:latest
+  ```  
+##### 用法:  
+  ```
+  sudo python3 docker_mrmd2.0.py -i test.csv
+  ```
+  Please find the results in 'Results' folder
  
+###  如果您不想使用docker，也可以采用下面的方式安装：   
 #### 1. 安装：
-推荐python3.6
+推荐Anaconda(python版本必须是python3.6的)
 ###### 1.1 Linux:  
   ```
   pip3 install -r requirements.txt 
