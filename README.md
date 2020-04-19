@@ -19,7 +19,7 @@ We recommend using [miniconda3.4.3](https://repo.anaconda.com/miniconda/)(or pyt
 
 
   ```
-  pip3 install -r requirements.txt 
+  pip3 install -r requirements.txt --ignore-installed
   ```  
 
   ##### note:
