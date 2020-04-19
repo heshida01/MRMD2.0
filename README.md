@@ -57,8 +57,13 @@ python3  mrmd2.0.py  -i test.csv -o metrics.csv  -c Dimensionalized_dataset.csv
 python3  mrmd2.0.py  -i test.arff -o metrics.csv  -c Dimensionalized_dataset.arff
 python3  mrmd2.0.py  -i test.libsvm -o metrics.csv  -c Dimensionalized_dataset.libsvm
 ```
-
-#### 4. logs
+#### 4. FAQs
+* problem1: ERROR: Cannot uninstall 'PyYAML'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.   
+solve1: pip install -r requirements.txt  --ignore-installed
+*************************
+* problem2:  error: command 'x86_64-conda_cos6-linux-gnu-gcc' failed with exit status 1.   
+solve2:  conda install gxx_linux-64
+#### 5. logs
 delete pymrmr  
 add rfe , chi2  
 
