@@ -33,7 +33,7 @@ if __name__ == "__main__":
      -v {current_path}{os.sep}Results:/Results:rw \
      -v  {current_path}{os.sep}Logs:/Logs:rw  \
      -v {current_path}{os.sep}{args.i}:/{args.i}:ro \
-     --rm -it mrmd:v05 python mrmd2.0.py \
+     --rm -it  heshida/mrmd2.0:latest python mrmd2.0.py \
      -i {args.i} -c {output_c} -o {output_o} -l {args.l} -m {args.m} -t {args.t}"
     #print(cmd)
     procExe = subprocess.Popen(cmd.split(), universal_newlines=True, stdout=subprocess.PIPE,stderr=subprocess.PIPE)
