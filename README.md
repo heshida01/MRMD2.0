@@ -5,6 +5,8 @@
 [Docker installation reference1](https://www.docker.com/products/docker-desktop)  ,   [Docker installation reference2](https://github.com/komavideo/LearnDocker/tree/master/Lesson02)  
 ##### pull the image
   ```
+  git clone https://github.com/heshida01/MRMD2.0.git  
+  cd MRMD2.0  
   sudo docker pull heshida/mrmd2.0:latest
   ```  
 ##### usage:  
