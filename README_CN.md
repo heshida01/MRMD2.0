@@ -5,6 +5,8 @@
 [docker安装参考 1（桌面版）](https://www.docker.com/products/docker-desktop)  ,   [docker安装参考 2 （linux）](https://github.com/komavideo/LearnDocker/tree/master/Lesson02)  
 ##### 安装成果后获取镜像：
   ```
+  git clone https://github.com/heshida01/MRMD2.0.git  
+  cd MRMD2.0  
   sudo docker pull heshida/mrmd2.0:latest
   ```  
 ##### 用法:  
