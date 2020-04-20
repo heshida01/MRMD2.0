@@ -17,7 +17,7 @@
 
 ###  If you don't want to use docker,You can also install it using the following method:
 #### 1. Installation：
-We recommend using [miniconda3.4.3](https://repo.anaconda.com/miniconda/)(or python3.6), support linux,windows.  
+We recommend using [miniconda3-4.3.31](https://repo.anaconda.com/miniconda/)(or python3.6), support linux,windows.  
 
 
   ```
