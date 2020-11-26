@@ -72,3 +72,6 @@ add rfe , chi2
 add HITS LeaderRank TrustRank
 
 If you have any questions.please contact me (heshida@tju.edu.cn)
+
+## reference:[1]. Shida He, Fei Guo, Quan Zou*, Hui Ding. MRMD2.0: A Python Tool for Machine Learning with Feature Ranking and Reduction. Current Bioinformatics 2020. DOI:10.2174/1574893615999200503030350. 
+
