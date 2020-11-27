@@ -45,11 +45,11 @@ class getGraph:
 		with open (self.edge_file, 'r') as e_file:
 			edge_list = e_file.readlines()
 		edge_list =  edge_list[::2]
-		print(edge_list)
+		#print(edge_list)
 
 		for edge in edge_list:
 			edge = edge.strip()
-			print(edge)
+			#print(edge)
 			from_, to_ = edge.split()
 			from_, to_ = int(from_), int(to_)
 			edges[from_].append(to_)
