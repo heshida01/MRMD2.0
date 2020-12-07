@@ -46,6 +46,10 @@ We recommend using [miniconda3-4.3.31](https://repo.anaconda.com/miniconda/)(or 
  
  * -o  Some indicators of the dimensionality reduction data set 
  
+ * -b classifier, default=1, RrandomForest=1, SVM=2, Bayes=3
+ 
+ * -r rank_method, default=1,  PageRank = 1,HITS:Authority = 2,HITS:Hub = 3,LeaderRank = 4,TrustRank=5
+ 
  * -c  Dimensionalized data set 
  
  The data output by the terminal can be found in the Logs directory. Please find the results in 'Results' folder. 
