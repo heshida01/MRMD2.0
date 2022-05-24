@@ -26,6 +26,10 @@ from math import  ceil
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import LinearSVC
 
+
+import numpy as np
+np.random.seed(1)
+
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", type=int, help="start index", default=1)
