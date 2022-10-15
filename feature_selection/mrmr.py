@@ -12,12 +12,12 @@ def mRMR(filecsv):
     df = pd.read_csv(filecsv,engine='python').dropna(axis=1)
     n = len(df.columns) - 1
 
-    if 1000>=n>500:
-        n = 500
-    elif 4500>=n>1000:
-        n = 300
-    elif n>=4500:
-        n = 100
+#     if 1000>=n>500:
+#         n = 500
+#     elif 4500>=n>1000:
+#         n = 300
+#     elif n>=4500:
+#         n = 100
 
     dirname_ = os.path.dirname(__file__)
     if sys.platform =="linux":
