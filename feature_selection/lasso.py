@@ -22,7 +22,7 @@ def lasso(file):
     #result = [(x, y) for x, y in zip(features_name[1:], lasso.coef_)]
     #result = sorted(result, key=lambda x: abs(x[1]), reverse=True)
 
-    return [x[0] for x in result1 ]
+    return [x[0] for x in result ]
 
 def run(csvfile,logger):
     logger.info('lasso start...')
